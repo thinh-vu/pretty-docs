@@ -7,7 +7,7 @@ tagline: |
   Xây dựng bằng *&nbsp;*{: .fa .fa-heart} dành cho cộng đồng.
   
   Sẵn sàng tích hợp vào các dự án *&nbsp;*{: .fa-brands .fa-python}
-heading: Getting started is easy!
+heading: Bắt đầu sử dụng thật dễ dàng!
 navigation:
   - /start
   - /components
@@ -20,16 +20,15 @@ navigation:
   - /legal
 ---
 
-Welcome to prettyDocs.
-This landing page is an example of how you can use a card view to present segments of your documentation.
-You can customise the icon fonts based on your needs.
+Chào mừng bạn đến với vnstock Docs.
+Từ đây bạn có thể tìm hiểu cách sử dụng vnstock một cách toàn diện trong phân tích thị trường chứng khoán Việt Nam.
 
-<div class="cta-container">
+<!-- <div class="cta-container">
 
 [*&nbsp;*{: .fa .fa-cloud-download} Download Now][PRETTYDOCS]{: .btn .btn-primary .btn-cta}
 [*&nbsp;*{: .fa .fa-github} Use in GitHub Pages][GHPAGES]{: .btn .btn-green .btn-primary .btn-cta}
 
-</div>
+</div> -->
 
-[PRETTYDOCS]: https://themes.3rdwavemedia.com/website-templates/prettydocs-free-bootstrap-theme-developers-and-startups/
-[GHPAGES]: https://github.com/LeakyAbstractions/pretty-docs/tree/gh-pages
+<!-- [PRETTYDOCS]: https://themes.3rdwavemedia.com/website-templates/prettydocs-free-bootstrap-theme-developers-and-startups/
+[GHPAGES]: https://github.com/LeakyAbstractions/pretty-docs/tree/gh-pages -->
