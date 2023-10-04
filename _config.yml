@@ -2,14 +2,14 @@
 # Site settings
 #
 remote_theme: LeakyAbstractions/pretty-docs
-url: https://leakyabstractions.github.io
+url: https://thinh-vu.github.io
 baseurl: /pretty-docs
-title: &site_title Pretty Docs
-description: &site_description Free Bootstrap theme for your project documentation
+title: &site_title vnstock Docs
+description: &site_description Tài liệu hướng dẫn sử dụng vnstock trong phân tích thị trường chứng khoán Việt Nam
 branding:
   icon:
     name: icon_documents_alt
-  highlight: Pretty
+  highlight: vnstock
   bold: Docs
 markdown: kramdown
 kramdown:
@@ -27,11 +27,11 @@ kramdown:
 # Owner
 #
 owner:
-  name: Guillermo Calvo
-  twitter: &site_owner_twitter gcalvo
+  name: Thịnh Vũ
+  twitter: &site_owner_twitter mrthinh360
   copyright:
-    notice: Lorem Ipsum
-    author: "[Guillermo Calvo](https://guillermo.in/)"
+    # notice: Lorem Ipsum
+    author: "[Thinh Vu](https://thinhvu.com/)"
 
 
 #
@@ -67,7 +67,7 @@ share:
 
 
 # Google Analytics
-google_analytics: UA-61670496-5
+google_analytics: UA-XXXXXXXX-X
 
 
 #
