@@ -2,11 +2,11 @@
 layout: home
 title: Home
 tagline: |
-  Free Bootstrap theme for your project documentation
+  Tài liệu hướng dẫn sử dụng vnstock trong phân tích thị trường chứng khoán Việt Nam
   
-  Designed with *&nbsp;*{: .fa .fa-heart} for developers
+  Xây dựng bằng *&nbsp;*{: .fa .fa-heart} dành cho cộng đồng.
   
-  Ready to use in *&nbsp;*{: .fa .fa-github} Github Pages
+  Sẵn sàng tích hợp vào các dự án *&nbsp;*{: .fa-brands .fa-python}
 heading: Getting started is easy!
 navigation:
   - /start

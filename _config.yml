@@ -29,6 +29,7 @@ kramdown:
 owner:
   name: Thịnh Vũ
   twitter: &site_owner_twitter mrthinh360
+  facebook: &site_owner_twitter mr.thinh.ueh
   copyright:
     # notice: Lorem Ipsum
     author: "[Thinh Vu](https://thinhvu.com/)"
