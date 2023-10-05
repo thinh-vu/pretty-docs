@@ -99,7 +99,6 @@ Tôi cung cấp một hàm tùy biến làm mẫu giúp bạn hình dung và b�
 - Tham gia Discord channel:
 [*&nbsp;*{: .fa-brands .fa-discord}        Discord channel  ](https://discord.gg/qJvxJcChJ3){: .btn .btn-blue .btn-cta}
 
-
 - **Ủng hộ quỹ phát triển vnstock**: Nếu vnstock giúp ích cho bạn, hãy đóng góp quỹ phát triển ứng dụng này theo một trong hai hình thức sau gồm chuyển khoản ngân hàng hoặc Momo. Mọi khoản đóng góp đều đáng trân quý và là động lực giúp tác giả duy trì vnstock luôn hữu ích, miễn phí, và dễ tiếp cận cho cộng đồng.
 
 <div class="row">
@@ -120,4 +119,5 @@ Tôi cung cấp một hàm tùy biến làm mẫu giúp bạn hình dung và b�
 
 ### Lịch sử thay đổi
 
-👉 Từ phiên bản 0.1.3, tất cả các cập nhật về tính năng và nâng cấp cho thư viện được tổng hợp trong file [Lịch sử thay đổi](https://github.com/thinh-vu/vnstock/blob/beta/docs/changes_log.md).
+👉 Từ phiên bản 0.1.3, tất cả các cập nhật về tính năng và nâng cấp cho thư viện được tổng hợp trong file
+[*&nbsp;*{: .fa-solid .fa-clock-rotate-left}        Lịch sử thay đổi  ](https://github.com/thinh-vu/vnstock/blob/beta/docs/changes_log.md){: .btn .btn-blue .btn-cta}
