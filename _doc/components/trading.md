@@ -16,7 +16,7 @@ Bạn có thể tải xuống bảng giá của một danh sách các cổ phi�
 - Minh họa Bảng giá TCBS
 
   <div class="price_board">
-   <a href="assets/images/tcbs_trading_board_sector.png?raw=true" data-title="Minh họa bảng giá TCBS" data-toggle="lightbox"><img class="img-responsive" src="assets/images/docstring_suggestion.jpeg?raw=true" alt="screenshot" /></a>
+   <a href="assets/images/tcbs_trading_board_sector.png?raw=true" data-title="Minh họa bảng giá TCBS" data-toggle="lightbox"><img class="img-responsive" src="assets/images/tcbs_trading_board_sector.jpeg?raw=true" alt="screenshot" /></a>
    <a class="mask" href="assets/images/tcbs_trading_board_sector.png?raw=true" data-title="Minh họa bảng giá TCBS" data-toggle="lightbox"><i class="icon fa fa-search-plus"></i></a>
   </div>
 
@@ -107,7 +107,7 @@ stock_ls_analysis("TCB, BID, CEO, GMD", lang='vi')
 ```
 
   <div class="stock_ls_comparison">
-   <a href="assets/images/stock_ls_comparison.png?raw=true" data-title="So sánh chỉ số của các mã CP" data-toggle="lightbox"><img class="img-responsive" src="assets/images/docstring_suggestion.jpeg?raw=true" alt="screenshot" /></a>
+   <a href="assets/images/stock_ls_comparison.png?raw=true" data-title="So sánh chỉ số của các mã CP" data-toggle="lightbox"><img class="img-responsive" src="assets/images/stock_ls_comparison.jpeg?raw=true" alt="screenshot" /></a>
    <a class="mask" href="assets/images/stock_ls_comparison.png?raw=true" data-title="So sánh chỉ số của các mã CP" data-toggle="lightbox"><i class="icon fa fa-search-plus"></i></a>
   </div>
 
@@ -125,7 +125,7 @@ stock_ls_analysis("TCB, BID, CEO, GMD", lang='vi')
 ##### Đánh giá chung
 
   <div class="general_rating">
-   <a href="assets/images/general_rating.png?raw=true" data-title="Đánh giá chung" data-toggle="lightbox"><img class="img-responsive" src="assets/images/docstring_suggestion.jpeg?raw=true" alt="screenshot" /></a>
+   <a href="assets/images/general_rating.png?raw=true" data-title="Đánh giá chung" data-toggle="lightbox"><img class="img-responsive" src="assets/images/general_rating.jpeg?raw=true" alt="screenshot" /></a>
    <a class="mask" href="assets/images/general_rating.png?raw=true" data-title="Đánh giá chung" data-toggle="lightbox"><i class="icon fa fa-search-plus"></i></a>
   </div>
 
@@ -215,7 +215,7 @@ Bộ lọc cổ phiếu là một hàm cho phép bạn truy vấn và lọc các
 - Bộ lọc cổ phiếu TCBS
 
   <div class="stock_scanner">
-   <a href="assets/images/stock_scanner_tcbs.png?raw=true" data-title="Bộ lọc cổ phiếu TCBS" data-toggle="lightbox"><img class="img-responsive" src="assets/images/docstring_suggestion.jpeg?raw=true" alt="screenshot" /></a>
+   <a href="assets/images/stock_scanner_tcbs.png?raw=true" data-title="Bộ lọc cổ phiếu TCBS" data-toggle="lightbox"><img class="img-responsive" src="assets/images/stock_scanner_tcbs.jpeg?raw=true" alt="screenshot" /></a>
    <a class="mask" href="assets/images/stock_scanner_tcbs.png?raw=true" data-title="Bộ lọc cổ phiếu TCBS" data-toggle="lightbox"><i class="icon fa fa-search-plus"></i></a>
   </div>
 
@@ -383,12 +383,12 @@ df = stock_screening_insights (params, size=1700, drop_lang='vi')
   <summary>Minh hoạ giao diện TCBS</summary>
 
   <div class="intraday_1">
-   <a href="assets/images/tcbs_intraday_screen1.png?raw=true" data-title="hình chụp 1" data-toggle="lightbox"><img class="img-responsive" src="assets/images/docstring_suggestion.jpeg?raw=true" alt="screenshot" /></a>
+   <a href="assets/images/tcbs_intraday_screen1.png?raw=true" data-title="hình chụp 1" data-toggle="lightbox"><img class="img-responsive" src="assets/images/tcbs_intraday_screen1.jpeg?raw=true" alt="screenshot" /></a>
    <a class="mask" href="assets/images/tcbs_intraday_screen1.png?raw=true" data-title="hình chụp 1" data-toggle="lightbox"><i class="icon fa fa-search-plus"></i></a>
   </div>
 
     <div class="intraday_2">
-   <a href="assets/images/tcbs_intraday_screen2.png?raw=true" data-title="hình chụp 2" data-toggle="lightbox"><img class="img-responsive" src="assets/images/docstring_suggestion.jpeg?raw=true" alt="screenshot" /></a>
+   <a href="assets/images/tcbs_intraday_screen2.png?raw=true" data-title="hình chụp 2" data-toggle="lightbox"><img class="img-responsive" src="assets/images/tcbs_intraday_screen2.jpeg?raw=true" alt="screenshot" /></a>
    <a class="mask" href="assets/images/tcbs_intraday_screen2.png?raw=true" data-title="hình chụp 2" data-toggle="lightbox"><i class="icon fa fa-search-plus"></i></a>
   </div>
 
