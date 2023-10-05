@@ -84,14 +84,20 @@ Tôi cung cấp một hàm tùy biến làm mẫu giúp bạn hình dung và b�
    <a class="mask" href="assets/images/vnstock_google_sheet_result.png?raw=true" data-title="vnstock google sheets" data-toggle="lightbox"><i class="icon fa fa-search-plus"></i></a>
   </div>
 
-- Để chuyển đổi các hàm python hiện tại do vnstock cung cấp, bạn có thể sử dụng công cụ ChatGPT để thực hiện. Xem thêm [video tôi chia sẻ của tôi trên Youtube](https://youtu.be/w4GCFZUpsEY) để hiểu cách làm. Bạn sẽ cần có chút kiến thức về JavaScript để có thể tùy biến các hàm này nhanh chóng. Nếu không sẽ cần kỹ năng prompt engineering tốt để có thể yêu cầu AI hỗ trợ. Xa hơn, khi có nguồn lực, tôi sẽ cung cấp Add-in cho Google Sheets để các bạn có thể sử dụng dễ dàng hơn.
+- Để chuyển đổi các hàm python hiện tại do vnstock cung cấp, bạn có thể sử dụng công cụ ChatGPT để thực hiện. Bạn sẽ cần có chút kiến thức về JavaScript để có thể tùy biến các hàm này nhanh chóng. Nếu không sẽ cần kỹ năng prompt engineering tốt để có thể yêu cầu AI hỗ trợ. Xa hơn, khi có nguồn lực, tôi sẽ cung cấp Add-in cho Google Sheets để các bạn có thể sử dụng dễ dàng hơn. Bạn có thể xem video hướng dẫn dưới đây để hiểu cách dùng ChatGPT hỗ trợ chuyển đổi hàm Python sang JavaScript.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/w4GCFZUpsEY?si=r77JMNc2p-SUihI5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ### Xây dựng cộng đồng vnstock
 
-🖐 Nếu bạn thấy thư viện này có giá trị và muốn hỗ trợ tác giả duy trì vnstock dưới dạng mã nguồn mở, miễn phí thì có thể tham gia ủng hộ gây quỹ phát triển dự án này. Để biết thêm chi tiết, vui lòng tham khảo bài viết trên blog sau: [Cùng nhau xây dựng cộng đồng VNStock vững mạnh](https://thinhvu.com/2023/04/15/xay-dung-cong-dong-vnstock-vung-manh/).
+🖐 Nếu bạn thấy thư viện này có giá trị và muốn hỗ trợ tác giả duy trì vnstock dưới dạng mã nguồn mở, miễn phí thì có thể tham gia ủng hộ gây quỹ phát triển dự án này. Để biết thêm chi tiết, vui lòng tham khảo bài viết trên blog sau: 
 
-- Tham gia nhóm vnstock trên Facebook: [Tại đây](https://www.facebook.com/groups/vnstock)
-- Tham gia Discord channel: [Tại đây](https://discord.gg/qJvxJcChJ3)
+[*&nbsp;*{: .fa .fa-eye} Xây dựng cộng đồng Vnstock](https://thinhvu.com/2023/04/15/xay-dung-cong-dong-vnstock-vung-manh?utm_source=vnstock-docs&utm_medium=resource){: .btn .btn-cta .btn-primary}
+
+- Tham gia nhóm vnstock trên Facebook:
+[*&nbsp;*{: .fa-brands .fa-facebook}        Nhóm Facebook  ](https://www.facebook.com/groups/vnstock){: .btn .btn-blue .btn-cta}
+- Tham gia Discord channel:
+[*&nbsp;*{: .fa-brands .fa-discord}        Discord channel  ](https://discord.gg/qJvxJcChJ3){: .btn .btn-blue .btn-cta}
 
 
 - **Ủng hộ quỹ phát triển vnstock**: Nếu vnstock giúp ích cho bạn, hãy đóng góp quỹ phát triển ứng dụng này theo một trong hai hình thức sau gồm chuyển khoản ngân hàng hoặc Momo. Mọi khoản đóng góp đều đáng trân quý và là động lực giúp tác giả duy trì vnstock luôn hữu ích, miễn phí, và dễ tiếp cận cho cộng đồng.
