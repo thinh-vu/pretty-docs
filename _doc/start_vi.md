@@ -1,20 +1,17 @@
 ---
-title: Quick Start
-excerpt: Demo example, consectetuer adipiscing elit
-date: 2016-01-25
+title: Hướng dẫn nhanh
+excerpt: Bắt đầu sử dụng vnstock nhanh chóng.
+date: 2023-10-05
 icon:
   type: fa
   name: fa-paper-plane
 color: green
 sections:
-  - /start/download
+  - /start/intro
   - /start/installation
-  - /start/code
-  - /start/callouts
-  - /start/tables
-  - /start/buttons
-  - /start/video
-  - /start/icons
+  - /start/resources
+  - /start/requirements
+
 promo:
   title: "*&nbsp;*{: .fa .fa-heart} [AppKit - Bootstrap Angular Admin Theme for Developers](https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm)"
   link: https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm
