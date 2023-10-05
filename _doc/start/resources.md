@@ -101,10 +101,6 @@ Tôi cung cấp một hàm tùy biến làm mẫu giúp bạn hình dung và b�
   </div>
  </div>
 
-  - ![vcb-qr](https://github.com/thinh-vu/pretty-docs/blob/main/assets/images/vcb-qr-thinhvu.jpg)
-  - ![momo-qr](https://github.com/thinh-vu/pretty-docs/blob/main/assets/images/momo-qr-thinhvu.jpeg)
-
-
 ### Lộ trình phát triển
 
 🔥 Bạn có thể tham khảo thêm [Ý tưởng cho các tính năng nâng cao cho các phiên bản sắp tới](https://github.com/users/thinh-vu/projects/1/views/4) để đồng hành cùng vnstock. 
