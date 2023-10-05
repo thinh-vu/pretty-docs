@@ -2,10 +2,10 @@
 title: Cài đặt vnstock
 sections:
   - Xác định phiên bản phù hợp
-  - Chọn lệnh cài đặt
+  - Chạy câu lệnh cài đặt
 ---
 
-### Bước 1. Xác định phiên bản phù hợp
+### Xác định phiên bản phù hợp
 
 > vnstock được phát triển thành hai nhánh riêng biệt. Bạn cần chọn phiên bản phù hợp và *copy câu lệnh tương ứng để thực hiện cài đặt ở bước tiếp theo*:
 
@@ -29,7 +29,7 @@ sections:
 
 </details>
 
-### Bước 2. Chạy câu lệnh cài đặt
+### Chạy câu lệnh cài đặt
 
 > Khi sử dụng file demo [vnstock_demo_index_all_functions_testing_2023_06_22.ipynb](https://github.com/thinh-vu/vnstock/blob/beta/demo/gen2_vnstock_demo_index_all_functions_testing_2023.ipynb) để bắt đầu, các câu lệnh cài đặt cần thiết đã được cung cấp sẵn để bạn thực thi (run).
 
