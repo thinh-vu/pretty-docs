@@ -1,67 +1,39 @@
 ---
 title: Installation
 sections:
-  - Step One
-  - Step Two
-  - Step Three
+  - Xác định phiên bản phù hợp
+  - Chọn lệnh cài đặt
 ---
 
-### Step One
+### Bước 1. Xác định phiên bản phù hợp
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.
+> vnstock được phát triển thành hai nhánh riêng biệt. Bạn cần chọn phiên bản phù hợp và *copy câu lệnh tương ứng để thực hiện cài đặt ở bước tiếp theo*:
 
+- Để sử dụng phiên bản vnstock ổn định được cập nhật trên pypi.org, bạn có thể cài đặt bằng câu lệnh:
+  `pip install --upgrade vnstock`
+- Ngoài ra bạn cũng có thể cài đặt trực tiếp từ source code Github như sau:
+  - Bản `beta` (nhận cập nhật mới nhất) được chia sẻ tại nhánh `beta` của Github repo.
+  
+    `pip install git+https://github.com/thinh-vu/vnstock.git@beta`
 
-###### Default code example:
+  - Bản `stable` (đã phát triển ổn định) được chia sẻ qua pypi.org và nhánh `main` tại Github repo này.
 
-```shell
-bower install <package>
-```
-
-```shell
-npm install <package>
-```
-
-
-### Step Two
-
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-
-<div class="row">
- <div class="col-md-6 col-sm-6 col-xs-12">
-
-###### Un-ordered list example
-
-{: .list}
-- Lorem ipsum dolor sit amet.
-- Aliquam tincidunt mauris.
-- Ultricies eget vel aliquam libero.
-  - Turpis pulvinar
-  - Feugiat scelerisque
-  - Ut tincidunt
-- Pellentesque habitant morbi.
-- Praesent dapibus, neque id.
-	
- </div>
- <div class="col-md-6 col-sm-6 col-xs-12">
-
-###### Ordered list example
-
-{: .list}
-1. Lorem ipsum dolor sit amet.
-2. Aliquam tincidunt mauris.
-3. Ultricies eget vel aliquam libero.
-  - Turpis pulvinar
-  - Feugiat scelerisque
-  - Ut tincidunt
-4. Pellentesque habitant morbi.
-5. Praesent dapibus, neque id.
-
- </div>
-</div>
+    `pip install git+https://github.com/thinh-vu/vnstock.git@main`
 
 
-### Step Three
+<details>
 
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis.
+  <summary>Chọn xem nhánh phù hợp</summary>
+
+  ![select_branch](https://raw.githubusercontent.com/thinh-vu/vnstock/beta/resources/images/vnstock_select_branch.jpeg)
+
+</details>
+
+### Bước 2. Chạy câu lệnh cài đặt
+
+> Khi sử dụng file demo [vnstock_demo_index_all_functions_testing_2023_06_22.ipynb](https://github.com/thinh-vu/vnstock/blob/beta/demo/gen2_vnstock_demo_index_all_functions_testing_2023.ipynb) để bắt đầu, các câu lệnh cài đặt cần thiết đã được cung cấp sẵn để bạn thực thi (run).
+
+**pip được sử dụng để cài đặt vnstock**. pip có sẵn trong hầu hết các bản phân phối Python được cài đặt. Phiên bản python cần thiết cho vnstock tối thiểu là 3.7. Bạn có thể paste câu lệnh đã copy ở Bước 1 và chạy nó trong môi trường Python bạn đang sử dụng.
+
+- Jupyter Notebook/Jupyter Lab/Google Colab: Mở file demo notebook để chạy các lệnh có sẵn.
+- CLI: Mở Terminal (macOS/Linux) hoặc Command Prompt (Windows Desktop) và paste dòng lệnh trên, bấm Enter để cài đặt. Lưu ý: Nếu sử dụng Windows và Python cài đặt với Anaconda thì chọn Anaconda Prompt để chạy lệnh thay vì Command Prompt mặc định.
