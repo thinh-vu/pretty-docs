@@ -48,13 +48,13 @@ Tôi cung cấp một hàm tùy biến làm mẫu giúp bạn hình dung và b�
 - Để sử dụng thử đoạn code trên cho việc lấy dữ liệu, bạn làm như sau:
   - Mở file [source code vnstock_gg_sheet](https://raw.githubusercontent.com/thinh-vu/vnstock/beta/vnstock_gg_sheet/vnstock._appscript.js) và copy đoạn code.
   - Mở hoặc tạo 1 file Google Sheets bất kỳ
-  - Từ menu của Google Sheets, tìm mục Extension (tiện ích mở rộng) > Apps Script như trong hình. ![Alt text](https://raw.githubusercontent.com/thinh-vu/vnstock/beta/resources/images/google_sheet_appscript_menu.png)
+  - Từ menu của Google Sheets, tìm mục Extension (tiện ích mở rộng) > Apps Script như trong hình. ![Alt text](https://raw.github.com/thinh-vu/pretty-docs/blob/main/assets/images/google_sheet_appscript_menu.png)
   - Trong giao diện Apps Script Editor, xóa hết code hiện tại và ghi đè với đoạn code bạn copy từ source code ở trên 
   
   <details>
     <summary>Mở rộng để xem ảnh minh họa trên Google Apps Script</summary>
     
-    ![Alt text](https://raw.githubusercontent.com/thinh-vu/vnstock/beta/resources/images/vnstock_google_sheets_appscript_code.png)
+    ![Alt text](https://raw.github.com/thinh-vu/pretty-docs/blob/main/assets/images/vnstock_google_sheets_appscript_code.png)
 
   </details>
   
@@ -65,7 +65,7 @@ Tôi cung cấp một hàm tùy biến làm mẫu giúp bạn hình dung và b�
     <details>
     <summary>Mở rộng để xem ảnh minh họa trên Google Apps Script</summary>
 
-    ![vnstock sheets](https://raw.githubusercontent.com/thinh-vu/vnstock/beta/resources/images/vnstock_google_sheet_result.png)
+    ![vnstock sheets](https://raw.github.com/thinh-vu/pretty-docs/blob/main/assets/images/vnstock_google_sheet_result.png)
 
   </details>
 
@@ -82,8 +82,8 @@ Tôi cung cấp một hàm tùy biến làm mẫu giúp bạn hình dung và b�
   <summary>Ủng hộ quỹ phát triển vnstock</summary>
   Nếu vnstock giúp ích cho bạn, hãy đóng góp quỹ phát triển ứng dụng này theo một trong hai hình thức sau gồm chuyển khoản ngân hàng hoặc Momo. Mọi khoản đóng góp đều đáng trân quý và là động lực giúp tác giả duy trì vnstock luôn hữu ích, miễn phí, và dễ tiếp cận cho cộng đồng.
 
-  - ![vcb-qr](https://raw.githubusercontent.com/thinh-vu/vnstock/beta/resources/images/vcb-qr-thinhvu.jpg)
-  - ![momo-qr](https://raw.githubusercontent.com/thinh-vu/vnstock/beta/resources/images/momo-qr-thinhvu.jpeg)
+  - ![vcb-qr](https://raw.github.com/thinh-vu/pretty-docs/blob/main/assets/images/vcb-qr-thinhvu.jpg)
+  - ![momo-qr](https://raw.github.com/thinh-vu/pretty-docs/blob/main/assets/images/momo-qr-thinhvu.jpeg)
 
 </details>
 

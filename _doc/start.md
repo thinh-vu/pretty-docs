@@ -8,27 +8,18 @@ icon:
 color: green
 sections:
   - /start/intro
-  - /start/installation
   - /start/resources
   - /start/requirements
 promo:
-  title: "*&nbsp;*{: .fa .fa-heart} [AppKit - Bootstrap Angular Admin Theme for Developers](https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm)"
-  link: https://wrapbootstrap.com/theme/admin-appkit-admin-theme-angularjs-WB051SCJ1?ref=3wm
+  title: "*&nbsp;*{: .fa .fa-heart} [Khóa học Phân tích dữ liệu với Python #4](https://thinhvu.com/2023/08/09/phan-tich-du-lieu-voi-python-for-data-analysis-3?utm_source=vnstock-docs&utm_medium=start)"
+  link: https://thinhvu.com/2023/08/09/phan-tich-du-lieu-voi-python-for-data-analysis-3?utm_source=vnstock-docs&utm_medium=start
   image:
-    alt: AppKit Theme
-    link: assets/images/demo/appkit-widgets-thumb.jpg
+    alt: Python course 4
+    link: assets/images/python_data_analysis_course_4_thinhvu.png
     icon:
       type: fa
       name: fa-heart pink
   content:
     title: "**Love this free documentation theme?**"
-    desc: |
-      Check out AppKit - an Angular admin theme I created with my developer friend [Tom Najdek](https://twitter.com/tnajdek)
-      for developers. AppKit uses modern front-end technologies and is packed with useful components and widgets to speed up your app development.
-
-      **[Tip for developers]:**{: .highlight}
-      If your project is Open Source, you can use this area to promote your other projects or hold third party adverts like Bootstrap and FontAwesome do!
-
-      {: .author}
-      [Xiaoying Riley](http://themes.3rdwavemedia.com)
+    desc: Khóa học Phân tích dữ liệu với Python cuối cùng trong năm 2023. Đăng ký ngay!.
 ---

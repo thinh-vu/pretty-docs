@@ -1,5 +1,5 @@
 ---
-title: Installation
+title: Cài đặt vnstock
 sections:
   - Xác định phiên bản phù hợp
   - Chọn lệnh cài đặt
@@ -25,7 +25,7 @@ sections:
 
   <summary>Chọn xem nhánh phù hợp</summary>
 
-  ![select_branch](https://raw.githubusercontent.com/thinh-vu/vnstock/beta/resources/images/vnstock_select_branch.jpeg)
+  ![select_branch](https://raw.github.com/thinh-vu/pretty-docs/blob/main/assets/images/vnstock_select_branch.jpeg)
 
 </details>
 
