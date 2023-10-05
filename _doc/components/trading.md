@@ -237,141 +237,145 @@ df = stock_screening_insights (params, size=1700, drop_lang='vi')
 
 ```
 
-#### Các bộ lọc gợi ý và tiêu chí hỗ trợ
+<details>
 
-a. BỘ LỌC GỢI Ý (PRESET)
+  <summary>Các bộ lọc gợi ý và tiêu chí hỗ trợ</summary>
 
-  > Sử dụng các tiêu chí lọc như sau để thiết lập tham số params.
+  a. BỘ LỌC GỢI Ý (PRESET)
 
-  - CANSLIM: epsGrowth1Year, lastQuarterProfitGrowth, roe, avgTradingValue20Day, relativeStrength1Month
-  - Giá trị: roe, pe, avgTradingValue20Day
-  - Cổ tức cao: dividendYield, avgTradingValue20Day
-  - Phá nền mua: avgTradingValue20Day, forecastVolumeRatio, breakout: 'BULLISH'
-  - Giá tăng + Đột biến khối lượng: avgTradingValue20Day, forecastVolumeRatio
-  - Vượt đỉnh 52 tuần: avgTradingValue20Day, priceBreakOut52Week: 'BREAK_OUT'
-  - Phá đáy 52 tuần: avgTradingValue20Day, priceWashOut52Week: 'WASH_OUT'
-  - Uptrend ngắn hạn: avgTradingValue20Day, uptrend: 'buy-signal'
-  - Vượt trội ngắn hạn: relativeStrength3Day, 
-  - Tăng trưởng: epsGrowth1Year, roe, avgTradingValue20Day
+    > Sử dụng các tiêu chí lọc như sau để thiết lập tham số params.
 
-b. THÔNG TIN CHUNG
+    - CANSLIM: epsGrowth1Year, lastQuarterProfitGrowth, roe, avgTradingValue20Day, relativeStrength1Month
+    - Giá trị: roe, pe, avgTradingValue20Day
+    - Cổ tức cao: dividendYield, avgTradingValue20Day
+    - Phá nền mua: avgTradingValue20Day, forecastVolumeRatio, breakout: 'BULLISH'
+    - Giá tăng + Đột biến khối lượng: avgTradingValue20Day, forecastVolumeRatio
+    - Vượt đỉnh 52 tuần: avgTradingValue20Day, priceBreakOut52Week: 'BREAK_OUT'
+    - Phá đáy 52 tuần: avgTradingValue20Day, priceWashOut52Week: 'WASH_OUT'
+    - Uptrend ngắn hạn: avgTradingValue20Day, uptrend: 'buy-signal'
+    - Vượt trội ngắn hạn: relativeStrength3Day, 
+    - Tăng trưởng: epsGrowth1Year, roe, avgTradingValue20Day
 
-  - exchangeName: sàn giao dịch của cổ phiếu, ví dụ "HOSE", "HNX", hoặc "UPCOM". Bạn có thể dùng dấu phẩy để phân tách nhiều sàn, ví dụ "HOSE,HNX,UPCOM".
-  - hasFinancialReport: Có báo cáo tài chính gần nhất. **1** nghĩa là có, **0** nghĩa là không.
-  - industryName: Lọc các cổ phiếu theo ngành cụ thể. Giá trị dạng **Retail** cho ngành Bán lẻ. Các giá trị khác có thể là:
-    - **Insurance**: Bảo hiểm
-    - **Real Estate**: Bất động sản
-    - **Technology**: Công nghệ thông tin
-    - **Oil & Gas**: Dầu khí
-    - **Financial Services**: Dịch vụ tài chính
-    - **Utilities**: Điện, nước, xăng dầu và khí đốt
-    - **Travel & Leisure**: Du lịch và giải trí
-    - **Industrial Goods & Services**: Hàng và dịch vụ công nghiệp
-    - **Personal & Household Goods**: Hàng cá nhân và gia dụng
-    - **Chemicals**: Hóa chất
-    - **Banks**: Ngân hàng
-    - **Automobiles & Parts**: Ô tô và phụ tùng
-    - **Basic Resources**: Tài nguyên cơ bản
-    - **Food & Beverage**: Thực phẩm và đồ uống
-    - **Media**: Truyền thông
-    - **Telecommunications**: Viễn thông
-    - **Construction & Materials**: Xây dựng và vật liệu
-    - **Health Care**: Y tế
-    - marketCap: vốn hóa thị trường của cổ phiếu tính bằng tỷ VND.
-    - priceNearRealtime: giá hiện tại của cổ phiếu tính bằng VND.
-    - foreignVolumePercent: tỷ lệ phần trăm khối lượng nước ngoài trong tổng khối lượng.
-    - alpha: lợi nhuận vượt trội của cổ phiếu so với lợi nhuận thị trường.
-    - beta: độ biến động của cổ phiếu so với thị trường.
-    - freeTransferRate: tỷ lệ phần trăm cổ phiếu có thể chuyển nhượng tự do.
+  b. THÔNG TIN CHUNG
 
-c. TĂNG TRƯỞNG
+    - exchangeName: sàn giao dịch của cổ phiếu, ví dụ "HOSE", "HNX", hoặc "UPCOM". Bạn có thể dùng dấu phẩy để phân tách nhiều sàn, ví dụ "HOSE,HNX,UPCOM".
+    - hasFinancialReport: Có báo cáo tài chính gần nhất. **1** nghĩa là có, **0** nghĩa là không.
+    - industryName: Lọc các cổ phiếu theo ngành cụ thể. Giá trị dạng **Retail** cho ngành Bán lẻ. Các giá trị khác có thể là:
+      - **Insurance**: Bảo hiểm
+      - **Real Estate**: Bất động sản
+      - **Technology**: Công nghệ thông tin
+      - **Oil & Gas**: Dầu khí
+      - **Financial Services**: Dịch vụ tài chính
+      - **Utilities**: Điện, nước, xăng dầu và khí đốt
+      - **Travel & Leisure**: Du lịch và giải trí
+      - **Industrial Goods & Services**: Hàng và dịch vụ công nghiệp
+      - **Personal & Household Goods**: Hàng cá nhân và gia dụng
+      - **Chemicals**: Hóa chất
+      - **Banks**: Ngân hàng
+      - **Automobiles & Parts**: Ô tô và phụ tùng
+      - **Basic Resources**: Tài nguyên cơ bản
+      - **Food & Beverage**: Thực phẩm và đồ uống
+      - **Media**: Truyền thông
+      - **Telecommunications**: Viễn thông
+      - **Construction & Materials**: Xây dựng và vật liệu
+      - **Health Care**: Y tế
+      - marketCap: vốn hóa thị trường của cổ phiếu tính bằng tỷ VND.
+      - priceNearRealtime: giá hiện tại của cổ phiếu tính bằng VND.
+      - foreignVolumePercent: tỷ lệ phần trăm khối lượng nước ngoài trong tổng khối lượng.
+      - alpha: lợi nhuận vượt trội của cổ phiếu so với lợi nhuận thị trường.
+      - beta: độ biến động của cổ phiếu so với thị trường.
+      - freeTransferRate: tỷ lệ phần trăm cổ phiếu có thể chuyển nhượng tự do.
 
-  - revenueGrowth1Year: tốc độ tăng trưởng doanh thu trong năm qua.
-  - revenueGrowth5Year: tốc độ tăng trưởng doanh thu trung bình trong 5 năm qua.
-  - epsGrowth1Year: tốc độ tăng trưởng lợi nhuận trên mỗi cổ phiếu trong năm qua.
-  - epsGrowth5Year: tốc độ tăng trưởng lợi nhuận trên mỗi cổ phiếu trung bình trong 5 năm qua.
-  - lastQuarterRevenueGrowth: tốc độ tăng trưởng doanh thu trong quý gần nhất.
-  - secondQuarterRevenueGrowth: tốc độ tăng trưởng doanh thu trong quý thứ hai.
-  - lastQuarterProfitGrowth: tốc độ tăng trưởng lợi nhuận trong quý gần nhất.
-  - secondQuarterProfitGrowth: tốc độ tăng trưởng lợi nhuận trong quý thứ hai.
+  c. TĂNG TRƯỞNG
 
-d. CHỈ SỐ TÀI CHÍNH
+    - revenueGrowth1Year: tốc độ tăng trưởng doanh thu trong năm qua.
+    - revenueGrowth5Year: tốc độ tăng trưởng doanh thu trung bình trong 5 năm qua.
+    - epsGrowth1Year: tốc độ tăng trưởng lợi nhuận trên mỗi cổ phiếu trong năm qua.
+    - epsGrowth5Year: tốc độ tăng trưởng lợi nhuận trên mỗi cổ phiếu trung bình trong 5 năm qua.
+    - lastQuarterRevenueGrowth: tốc độ tăng trưởng doanh thu trong quý gần nhất.
+    - secondQuarterRevenueGrowth: tốc độ tăng trưởng doanh thu trong quý thứ hai.
+    - lastQuarterProfitGrowth: tốc độ tăng trưởng lợi nhuận trong quý gần nhất.
+    - secondQuarterProfitGrowth: tốc độ tăng trưởng lợi nhuận trong quý thứ hai.
 
-  - grossMargin: tỷ suất lợi nhuận gộp của cổ phiếu.
-  - netMargin: tỷ suất lợi nhuận ròng của cổ phiếu.
-  - roe: tỷ suất sinh lời về vốn chủ sở hữu của cổ phiếu.
-  - doe: tỷ suất cổ tức về vốn chủ sở hữu của cổ phiếu.
-  - dividendYield: tỷ suất cổ tức của cổ phiếu.
-  - eps: lợi nhuận trên mỗi cổ phiếu của cổ phiếu tính bằng VND.
-  - pe: tỷ số giá/lợi nhuận của cổ phiếu.
-  - pb: tỷ số giá/giá trị sổ sách của cổ phiếu.
-  - evEbitda: tỷ số giá trị doanh nghiệp/lợi nhuận trước thuế, lãi vay, khấu hao và amortization của cổ phiếu.
-  - netCashPerMarketCap: tỷ số tiền mặt ròng/vốn hóa thị trường của cổ phiếu.
-  - netCashPerTotalAssets: tỷ số tiền mặt ròng/tổng tài sản của cổ phiếu.
-  - profitForTheLast4Quarters: tổng lợi nhuận trong 4 quý gần nhất của cổ phiếu tính bằng tỷ VND.
+  d. CHỈ SỐ TÀI CHÍNH
 
-e. BIẾN ĐỘNG GIÁ & KHỐI LƯỢNG
+    - grossMargin: tỷ suất lợi nhuận gộp của cổ phiếu.
+    - netMargin: tỷ suất lợi nhuận ròng của cổ phiếu.
+    - roe: tỷ suất sinh lời về vốn chủ sở hữu của cổ phiếu.
+    - doe: tỷ suất cổ tức về vốn chủ sở hữu của cổ phiếu.
+    - dividendYield: tỷ suất cổ tức của cổ phiếu.
+    - eps: lợi nhuận trên mỗi cổ phiếu của cổ phiếu tính bằng VND.
+    - pe: tỷ số giá/lợi nhuận của cổ phiếu.
+    - pb: tỷ số giá/giá trị sổ sách của cổ phiếu.
+    - evEbitda: tỷ số giá trị doanh nghiệp/lợi nhuận trước thuế, lãi vay, khấu hao và amortization của cổ phiếu.
+    - netCashPerMarketCap: tỷ số tiền mặt ròng/vốn hóa thị trường của cổ phiếu.
+    - netCashPerTotalAssets: tỷ số tiền mặt ròng/tổng tài sản của cổ phiếu.
+    - profitForTheLast4Quarters: tổng lợi nhuận trong 4 quý gần nhất của cổ phiếu tính bằng tỷ VND.
 
-  - suddenlyHighVolumeMatching: tín hiệu chỉ ra nếu có sự tăng đột biến khối lượng khớp lệnh cho cổ phiếu này. 0 nghĩa là không, 1 nghĩa là có.
-  - totalTradingValue: tổng giá trị giao dịch của cổ phiếu này tính bằng tỷ VND hôm nay.
-  - avgTradingValue5Day: giá trị giao dịch trung bình của cổ phiếu này tính bằng tỷ VND trong 5 ngày.
-  - avgTradingValue10Day: giá trị giao dịch trung bình của cổ phiếu này tính bằng tỷ VND trong 10 ngày.
-  - avgTradingValue20Day: giá trị giao dịch trung bình của cổ phiếu này tính bằng tỷ VND trong 20 ngày.
-  - priceGrowth1Week: tốc độ tăng trưởng giá của cổ phiếu trong tuần qua.
-  - priceGrowth1Month: tốc độ tăng trưởng giá của cổ phiếu trong tháng qua.
-  - percent1YearFromPeak: tỷ lệ phần trăm thay đổi của cổ phiếu từ giá cao nhất trong 1 năm.
-  - percentAwayFromHistoricalPeak: tỷ lệ phần trăm thay đổi của cổ phiếu từ giá cao nhất lịch sử.
-  - percent1YearFromBottom: tỷ lệ phần trăm thay đổi của cổ phiếu từ giá thấp nhất trong 1 năm.
-  - percentOffHistoricalBottom: tỷ lệ phần trăm thay đổi của cổ phiếu từ giá thấp nhất lịch sử.
-  - priceVsSMA5: mối quan hệ giữa giá hiện tại và SMA 5 ngày của cổ phiếu. Các giá trị có thể là "ABOVE", "BELOW", "CROSS_ABOVE", hoặc "CROSS_BELOW".
-  - priceVsSma10: mối quan hệ giữa giá hiện tại và SMA 10 ngày của cổ phiếu. Các giá trị có thể là "ABOVE", "BELOW", "CROSS_ABOVE", hoặc "CROSS_BELOW".
-  - priceVsSMA20: mối quan hệ giữa giá hiện tại và SMA 20 ngày của cổ phiếu. Các giá trị có thể là "ABOVE", "BELOW", "CROSS_ABOVE", hoặc "CROSS_BELOW".
-  - priceVsSma50: mối quan hệ giữa giá hiện tại và SMA 50 ngày của cổ phiếu. Các giá trị có thể là "ABOVE", "BELOW", "CROSS_ABOVE", hoặc "CROSS_BELOW".
-  - priceVsSMA100: mối quan hệ giữa giá hiện tại và SMA 100 ngày của cổ phiếu. Các giá trị có thể là "ABOVE", "BELOW", "CROSS_ABOVE", hoặc "CROSS_BELOW".
-  - forecastVolumeRatio: tỷ số giữa khối lượng dự báo và khối lượng thực tế của cổ phiếu hôm nay.
-  - volumeVsVSma5: tỷ số giữa khối lượng hiện tại và SMA khối lượng 5 ngày của cổ phiếu.
-  - volumeVsVSma10: tỷ số giữa khối lượng hiện tại và SMA khối lượng 10 ngày của cổ phiếu.
-  - volumeVsVSma20: tỷ số giữa khối lượng hiện tại và SMA khối lượng 20 ngày của cổ phiếu.
-  - volumeVsVSma50: tỷ số giữa khối lượng hiện tại và SMA khối lượng 50 ngày của cổ phiếu.
+  e. BIẾN ĐỘNG GIÁ & KHỐI LƯỢNG
 
-f. HÀNH VI THỊ TRƯỜNG
+    - suddenlyHighVolumeMatching: tín hiệu chỉ ra nếu có sự tăng đột biến khối lượng khớp lệnh cho cổ phiếu này. 0 nghĩa là không, 1 nghĩa là có.
+    - totalTradingValue: tổng giá trị giao dịch của cổ phiếu này tính bằng tỷ VND hôm nay.
+    - avgTradingValue5Day: giá trị giao dịch trung bình của cổ phiếu này tính bằng tỷ VND trong 5 ngày.
+    - avgTradingValue10Day: giá trị giao dịch trung bình của cổ phiếu này tính bằng tỷ VND trong 10 ngày.
+    - avgTradingValue20Day: giá trị giao dịch trung bình của cổ phiếu này tính bằng tỷ VND trong 20 ngày.
+    - priceGrowth1Week: tốc độ tăng trưởng giá của cổ phiếu trong tuần qua.
+    - priceGrowth1Month: tốc độ tăng trưởng giá của cổ phiếu trong tháng qua.
+    - percent1YearFromPeak: tỷ lệ phần trăm thay đổi của cổ phiếu từ giá cao nhất trong 1 năm.
+    - percentAwayFromHistoricalPeak: tỷ lệ phần trăm thay đổi của cổ phiếu từ giá cao nhất lịch sử.
+    - percent1YearFromBottom: tỷ lệ phần trăm thay đổi của cổ phiếu từ giá thấp nhất trong 1 năm.
+    - percentOffHistoricalBottom: tỷ lệ phần trăm thay đổi của cổ phiếu từ giá thấp nhất lịch sử.
+    - priceVsSMA5: mối quan hệ giữa giá hiện tại và SMA 5 ngày của cổ phiếu. Các giá trị có thể là "ABOVE", "BELOW", "CROSS_ABOVE", hoặc "CROSS_BELOW".
+    - priceVsSma10: mối quan hệ giữa giá hiện tại và SMA 10 ngày của cổ phiếu. Các giá trị có thể là "ABOVE", "BELOW", "CROSS_ABOVE", hoặc "CROSS_BELOW".
+    - priceVsSMA20: mối quan hệ giữa giá hiện tại và SMA 20 ngày của cổ phiếu. Các giá trị có thể là "ABOVE", "BELOW", "CROSS_ABOVE", hoặc "CROSS_BELOW".
+    - priceVsSma50: mối quan hệ giữa giá hiện tại và SMA 50 ngày của cổ phiếu. Các giá trị có thể là "ABOVE", "BELOW", "CROSS_ABOVE", hoặc "CROSS_BELOW".
+    - priceVsSMA100: mối quan hệ giữa giá hiện tại và SMA 100 ngày của cổ phiếu. Các giá trị có thể là "ABOVE", "BELOW", "CROSS_ABOVE", hoặc "CROSS_BELOW".
+    - forecastVolumeRatio: tỷ số giữa khối lượng dự báo và khối lượng thực tế của cổ phiếu hôm nay.
+    - volumeVsVSma5: tỷ số giữa khối lượng hiện tại và SMA khối lượng 5 ngày của cổ phiếu.
+    - volumeVsVSma10: tỷ số giữa khối lượng hiện tại và SMA khối lượng 10 ngày của cổ phiếu.
+    - volumeVsVSma20: tỷ số giữa khối lượng hiện tại và SMA khối lượng 20 ngày của cổ phiếu.
+    - volumeVsVSma50: tỷ số giữa khối lượng hiện tại và SMA khối lượng 50 ngày của cổ phiếu.
 
-  - strongBuyPercentage: tỷ lệ phần trăm tín hiệu mua mạnh cho cổ phiếu này dựa trên phân tích kỹ thuật.
-  - activeBuyPercentage: tỷ lệ phần trăm tín hiệu mua tích cực cho cổ phiếu này dựa trên phân tích kỹ thuật.
-  - foreignTransaction: loại giao dịch nước ngoài cho cổ phiếu này hôm nay. Các giá trị có thể là "buyMoreThanSell", "sellMoreThanBuy", hoặc "noTransaction".
-  - foreignBuySell20Session: giá trị mua bán ròng nước ngoài cho cổ phiếu này tính bằng tỷ VND trong 20 phiên.
-  - numIncreaseContinuousDay: số ngày liên tiếp cổ phiếu này tăng giá.
-  - numDecreaseContinuousDay: số ngày liên tiếp cổ phiếu này giảm giá.
+  f. HÀNH VI THỊ TRƯỜNG
 
-g. TÍN HIỆU KỸ THUẬT
+    - strongBuyPercentage: tỷ lệ phần trăm tín hiệu mua mạnh cho cổ phiếu này dựa trên phân tích kỹ thuật.
+    - activeBuyPercentage: tỷ lệ phần trăm tín hiệu mua tích cực cho cổ phiếu này dựa trên phân tích kỹ thuật.
+    - foreignTransaction: loại giao dịch nước ngoài cho cổ phiếu này hôm nay. Các giá trị có thể là "buyMoreThanSell", "sellMoreThanBuy", hoặc "noTransaction".
+    - foreignBuySell20Session: giá trị mua bán ròng nước ngoài cho cổ phiếu này tính bằng tỷ VND trong 20 phiên.
+    - numIncreaseContinuousDay: số ngày liên tiếp cổ phiếu này tăng giá.
+    - numDecreaseContinuousDay: số ngày liên tiếp cổ phiếu này giảm giá.
 
-  - rsi14: chỉ số sức mạnh tương đối (RSI) của cổ phiếu với chu kỳ 14 ngày.
-  - rsi14Status: trạng thái của RSI cho cổ phiếu này. Các giá trị có thể là "intoOverBought", "intoOverSold", "outOfOverBought", hoặc "outOfOverSold".
-  - tcbsBuySellSignal: tín hiệu mua bán cho cổ phiếu này dựa trên phân tích của TCBS. Các giá trị có thể là "BUY" hoặc "SELL".
-  - priceBreakOut52Week: tín hiệu chỉ ra nếu có sự đột phá giá cho cổ phiếu này trong 52 tuần. Các giá trị có thể là "BREAK_OUT" hoặc "NO_BREAK_OUT".
-  - priceWashOut52Week: tín hiệu chỉ ra nếu có sự rửa giá cho cổ phiếu này trong 52 tuần. Các giá trị có thể là "WASH_OUT" hoặc "NO_WASH_OUT".
-  - macdHistogram: tín hiệu chỉ ra nếu có tín hiệu MACD histogram cho cổ phiếu này. Các giá trị có thể là "macdHistGT0Increase", "macdHistGT0Decrease", "macdHistLT0Increase", hoặc "macdHistLT0Decrease".
-  - relativeStrength3Day: sức mạnh tương đối của cổ phiếu so với thị trường trong 3 ngày.
-  - relativeStrength1Month: sức mạnh tương đối của cổ phiếu so với thị trường trong 1 tháng.
-  - relativeStrength3Month: sức mạnh tương đối của cổ phiếu so với thị trường trong 3 tháng.
-  - relativeStrength1Year: sức mạnh tương đối của cổ phiếu so với thị trường trong 1 năm.
-  - tcRS: sức mạnh tương đối của TCBS của cổ phiếu so với thị trường.
-  - sarVsMacdHist: tín hiệu chỉ ra nếu có tín hiệu SAR vs MACD histogram cho cổ phiếu này. Các giá trị có thể là "BUY" hoặc "SELL".
+  g. TÍN HIỆU KỸ THUẬT
 
-h. TÍN HIỆU MUA/BÁN
+    - rsi14: chỉ số sức mạnh tương đối (RSI) của cổ phiếu với chu kỳ 14 ngày.
+    - rsi14Status: trạng thái của RSI cho cổ phiếu này. Các giá trị có thể là "intoOverBought", "intoOverSold", "outOfOverBought", hoặc "outOfOverSold".
+    - tcbsBuySellSignal: tín hiệu mua bán cho cổ phiếu này dựa trên phân tích của TCBS. Các giá trị có thể là "BUY" hoặc "SELL".
+    - priceBreakOut52Week: tín hiệu chỉ ra nếu có sự đột phá giá cho cổ phiếu này trong 52 tuần. Các giá trị có thể là "BREAK_OUT" hoặc "NO_BREAK_OUT".
+    - priceWashOut52Week: tín hiệu chỉ ra nếu có sự rửa giá cho cổ phiếu này trong 52 tuần. Các giá trị có thể là "WASH_OUT" hoặc "NO_WASH_OUT".
+    - macdHistogram: tín hiệu chỉ ra nếu có tín hiệu MACD histogram cho cổ phiếu này. Các giá trị có thể là "macdHistGT0Increase", "macdHistGT0Decrease", "macdHistLT0Increase", hoặc "macdHistLT0Decrease".
+    - relativeStrength3Day: sức mạnh tương đối của cổ phiếu so với thị trường trong 3 ngày.
+    - relativeStrength1Month: sức mạnh tương đối của cổ phiếu so với thị trường trong 1 tháng.
+    - relativeStrength3Month: sức mạnh tương đối của cổ phiếu so với thị trường trong 3 tháng.
+    - relativeStrength1Year: sức mạnh tương đối của cổ phiếu so với thị trường trong 1 năm.
+    - tcRS: sức mạnh tương đối của TCBS của cổ phiếu so với thị trường.
+    - sarVsMacdHist: tín hiệu chỉ ra nếu có tín hiệu SAR vs MACD histogram cho cổ phiếu này. Các giá trị có thể là "BUY" hoặc "SELL".
 
-  - bollingBandSignal: tín hiệu chỉ ra nếu có tín hiệu Bollinger Band cho cổ phiếu này. Các giá trị có thể là "BUY" hoặc "SELL".
-  - dmiSignal: tín hiệu chỉ ra nếu có tín hiệu chỉ số chuyển động hướng (DMI) cho cổ phiếu này. Các giá trị có thể là "BUY" hoặc "SELL".
-  - uptrend: tín hiệu chỉ ra nếu có tín hiệu xu hướng tăng cho cổ phiếu này. Các giá trị có thể là "buy-signal" hoặc "sell-signal".
-  - breakout: tín hiệu chỉ ra nếu có tín hiệu đột phá cho cổ phiếu này. Các giá trị có thể là "BULLISH" hoặc "BEARISH".
+  h. TÍN HIỆU MUA/BÁN
 
-i. TCBS ĐÁNH GIÁ
+    - bollingBandSignal: tín hiệu chỉ ra nếu có tín hiệu Bollinger Band cho cổ phiếu này. Các giá trị có thể là "BUY" hoặc "SELL".
+    - dmiSignal: tín hiệu chỉ ra nếu có tín hiệu chỉ số chuyển động hướng (DMI) cho cổ phiếu này. Các giá trị có thể là "BUY" hoặc "SELL".
+    - uptrend: tín hiệu chỉ ra nếu có tín hiệu xu hướng tăng cho cổ phiếu này. Các giá trị có thể là "buy-signal" hoặc "sell-signal".
+    - breakout: tín hiệu chỉ ra nếu có tín hiệu đột phá cho cổ phiếu này. Các giá trị có thể là "BULLISH" hoặc "BEARISH".
 
-  - tcbsRecommend: tín hiệu chỉ ra nếu có khuyến nghị của TCBS cho cổ phiếu này. Các giá trị có thể là "BUY" hoặc "SELL".
-  - stockRating: điểm đánh giá cổ phiếu cho cổ phiếu này dựa trên phân tích của TCBS. Điểm từ 1 đến 5, với 5 là tốt nhất.
-  - businessModel: điểm đánh giá mô hình kinh doanh cho cổ phiếu này dựa trên phân tích của TCBS. Điểm từ 1 đến 5, với 5 là tốt nhất.
-  - businessOperation: điểm đánh giá hoạt động kinh doanh cho cổ phiếu này dựa trên phân tích của TCBS. Điểm từ 1 đến 5, với 5 là tốt nhất.
-  - financialHealth: điểm đánh giá sức khỏe tài chính cho cổ phiếu này dựa trên phân tích của TCBS. Điểm từ 1 đến 5, với 5 là tốt nhất.
+  i. TCBS ĐÁNH GIÁ
+
+    - tcbsRecommend: tín hiệu chỉ ra nếu có khuyến nghị của TCBS cho cổ phiếu này. Các giá trị có thể là "BUY" hoặc "SELL".
+    - stockRating: điểm đánh giá cổ phiếu cho cổ phiếu này dựa trên phân tích của TCBS. Điểm từ 1 đến 5, với 5 là tốt nhất.
+    - businessModel: điểm đánh giá mô hình kinh doanh cho cổ phiếu này dựa trên phân tích của TCBS. Điểm từ 1 đến 5, với 5 là tốt nhất.
+    - businessOperation: điểm đánh giá hoạt động kinh doanh cho cổ phiếu này dựa trên phân tích của TCBS. Điểm từ 1 đến 5, với 5 là tốt nhất.
+    - financialHealth: điểm đánh giá sức khỏe tài chính cho cổ phiếu này dựa trên phân tích của TCBS. Điểm từ 1 đến 5, với 5 là tốt nhất.
+
+</details>
 
 ## Dữ liệu khớp lệnh trong ngày giao dịch
 
