@@ -17,8 +17,7 @@ Trong đó:
 - **report_range** nhận 1 trong 2 giá trị: **yearly** cho phép trả về chỉ số theo năm, **quarterly** trả về dữ liệu theo quý
 - **is_all** có giá trị mặc định là **True** cho phép lấy chỉ số qua tất cả các kỳ (năm hoặc quý), **False** cho phép lấy các kỳ gần nhất (5 năm hoặc 10 quý gần đây).
 
-<details>
-  <summary>Output</summary>
+- Kết quả:
 
 ```shell
 >>> financial_ratio('TCB', 'yearly')
@@ -54,7 +53,7 @@ cancelDebt               0.002  0.004  0.013  0.002  0.008
 bookValuePerShareChange  0.219  0.247    0.2  0.199  0.923
 creditGrowth             0.211  0.252  0.202  0.443 -0.006
   ```
-</details>
+
 
 
 ## Báo cáo kết quả kinh doanh, cân đối kế toán và lưu chuyển tiền tệ
@@ -67,8 +66,7 @@ financial_flow(symbol="TCB", report_type='incomestatement', report_range='quarte
 ```
 
 
-<details>
-  <summary>Output</summary>
+- Kết quả:
 
 ```shell
 ticker  revenue  yearRevenueGrowth  quarterRevenueGrowth costOfGoodSold grossProfit  ...  investProfit  serviceProfit  otherProfit  provisionExpense operationIncome  ebitda
@@ -78,7 +76,6 @@ index                                                                           
 2021-Q2    TCB     6588              0.674                 0.076           None        None  ...           717           1457          444              -598            6615    None
 2021-Q1    TCB     6124              0.454                 0.122           None        None  ...           812           1325          671              -851            6369    None
 ```
-</details>
 
 ### Bảng cân đối kế toán
 
@@ -87,8 +84,7 @@ index                                                                           
 financial_flow(symbol="TCB", report_type='balancesheet', report_range='quarterly')
 ```
 
-<details>
-  <summary>Output</summary>
+- Kết quả:
 
 ```shell
         ticker shortAsset  cash shortInvest shortReceivable inventory longAsset  fixedAsset  ...  payableInterest  receivableInterest deposit otherDebt  fund  unDistributedIncome  minorShareHolderProfit  payable
@@ -99,7 +95,7 @@ index                                                                           
 2021-Q2    TCB       None  3554        None            None      None      None        6739  ...             2643                5736  289335     27678  6790                40924                     659   420403
 2021-Q1    TCB       None  4273        None            None      None      None        4726  ...             2897                5664  287446     26035  6790                36213                     563   3837
 ```
-</details>
+
 
 ### Báo cáo lưu chuyển tiền tệ
 
@@ -107,8 +103,7 @@ index                                                                           
 financial_flow(symbol="TCB", report_type='cashflow', report_range='quarterly')
 ```
 
-<details>
-  <summary>Output</summary>
+- Kết quả:
 
 ```shell
         ticker  investCost  fromInvest  fromFinancial  fromSale  freeCashFlow
@@ -118,7 +113,7 @@ index
 2021-Q2    TCB        -337        -282              0     11205             0
 2021-Q1    TCB        -143        -143              0     -6954             0
 ```
-</details>
+
 
 ## Chỉ số định giá
 
@@ -126,8 +121,7 @@ index
 stock_evaluation (symbol='TCB', period=1, time_window='D')
 ```
 
-<details>
-  <summary>Output</summary>
+- Kết quả:
 
   ```shell
   >>> stock_evaluation (symbol='TCB', period=1, time_window='D')
@@ -146,4 +140,4 @@ stock_evaluation (symbol='TCB', period=1, time_window='D')
 
   [250 rows x 9 columns]
   ```
-</details>
+

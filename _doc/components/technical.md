@@ -36,8 +36,7 @@ Bạn cũng có thể viết hàm theo dạng rút gọn như dưới đây, đi
   ```
 Và đây là kết quả
 
-<details>
-  <summary>Output</summary>
+- Kết quả
 
   ```
    time        open     high     low      close    volume
@@ -45,8 +44,6 @@ Và đây là kết quả
 1  2021-01-05  32279.0  33596.0  31938.0  32962.0  4851900
 2  2021-01-06  33352.0  33352.0  32279.0  32572.0  3641300
   ```
-
-</details>
 
 - Lấy dữ liệu lịch sử của mã chỉ số
 ```python
