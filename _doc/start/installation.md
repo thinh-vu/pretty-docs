@@ -33,8 +33,8 @@ sections:
   <!-- ![select_branch](https://github.com/thinh-vu/pretty-docs/blob/main/assets/images/vnstock_select_branch.jpeg?raw=true) -->
 
   <div class="screenshot-holder">
-   <a href="assets/images/vnstock_select_branch.jpeg" data-title="Chọn nhánh" data-toggle="lightbox"><img class="img-responsive" src="https://raw.github.com/thinh-vu/pretty-docs/blob/main/assets/images/vnstock_select_branch.jpeg" alt="screenshot" /></a>
-   <a class="mask" href="assets/images/demo/vnstock_select_branch.jpeg" data-title="Chọn nhánh vnstock" data-toggle="lightbox"><i class="icon fa fa-search-plus"></i></a>
+   <a href="assets/images/vnstock_select_branch.jpeg?raw=true" data-title="Chọn nhánh" data-toggle="lightbox"><img class="img-responsive" src="assets/images/vnstock_select_branch.jpeg?raw=true" alt="screenshot" /></a>
+   <a class="mask" href="assets/images/demo/vnstock_select_branch.jpeg?raw=true" data-title="Chọn nhánh vnstock" data-toggle="lightbox"><i class="icon fa fa-search-plus"></i></a>
   </div>
 
 ### Chạy câu lệnh cài đặt

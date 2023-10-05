@@ -26,11 +26,15 @@ vnstock Web app đã được giới thiệu lần đầu vào 4/9/2023 nhằm g
 
 vnstock web app được xây dựng bằng streamlit framework, sử dụng ngôn ngữ Python hoàn toàn. Đây  cũng là một định hướng rất triển vọng trong việc xây dựng các ứng dụng web trong việc phân tích chứng khoán với giao diện người dùng thân thiện và dễ sử dụng, bảo trì.
 
-👉 Bạn có thể truy cập [vnstock Web app](https://vnstock.streamlit.app/) để trải nghiệm ngay. 
+👉 Bạn có thể truy cập vnstock Web app để trải nghiệm ngay. 
+
+- [*&nbsp;*{: .fa .fa-eye} Vnstock Web App](https://vnstock.site/vnstock-app?utm_source=vnstock-docs&utm_medium=resource){: .btn .btn-cta .btn-primary}
 
 ### Notebook minh hoạ
 
-👉 Bạn có thể mở tệp Jupyter Notebook [vnstock_demo_index_all_functions_testing](https://github.com/thinh-vu/vnstock/blob/beta/demo/gen2_vnstock_demo_index_all_functions_testing_2023.ipynb) để dùng thử tất cả các hàm của vnstock. Để sử dụng, nhấp vào nút ![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg) ở đầu trang của notebook để mở với Google Colab.
+- [*&nbsp;*{: .fa .fa-eye} Demo Notebook](https://github.com/thinh-vu/vnstock/blob/beta/demo/gen2_vnstock_demo_index_all_functions_testing_2023.ipynb){: .btn .btn-cta .btn-primary}
+
+👉 Bạn có thể mở tệp Jupyter Notebook để dùng thử tất cả các hàm của vnstock. Để sử dụng, nhấp vào nút ![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg) ở đầu trang của notebook để mở với Google Colab.
 
 ### Docstring
 Tất cả các hàm của vnstock đều được cung cấp docstring đầy đủ trong khi file README.md này có thể không cập nhật toàn bộ mô tả về các tham số cho phép của từng hàm. Bạn có thể xem phần gợi ý khi viết câu lệnh trên các IDE như Google Colab, Visual Studio Code, hay Jupyter Notebook hoặc mở phần source code của Github để xem chi tiết. Trong thời gian tới, vnstock sẽ được bổ sung mô tả đầy đủ tại README.md khi có thể.
