@@ -61,10 +61,10 @@ share:
     via: *site_owner_twitter
     text: &site_description
     title: Tweet
-  github:
-    repo: thinh-vu/vnstock
-    position: right
-    color: red
+  # github:
+  #   repo: thinh-vu/vnstock
+  #   position: right
+  #   color: red
 
 
 # Google Analytics
