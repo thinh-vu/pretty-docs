@@ -25,7 +25,7 @@ sections:
 
   <summary>Chọn xem nhánh phù hợp</summary>
 
-  ![select_branch](https://github.com/thinh-vu/pretty-docs/blob/main/assets/images/vnstock_select_branch.jpeg)
+  ![select_branch](https://github.com/thinh-vu/pretty-docs/blob/main/assets/images/vnstock_select_branch.jpeg?raw=true)
 
 </details>
 
