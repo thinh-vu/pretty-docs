@@ -30,11 +30,11 @@ vnstock web app được xây dựng bằng streamlit framework, sử dụng ng�
 
 👉 Bạn có thể truy cập vnstock Web app để trải nghiệm ngay. 
 
-- [*&nbsp;*{: .fa .fa-eye} Vnstock Web App](https://vnstock.site/vnstock-app?utm_source=vnstock-docs&utm_medium=resource){: .btn .btn-cta .btn-primary}
+[*&nbsp;*{: .fa .fa-eye} Vnstock Web App](https://vnstock.site/vnstock-app?utm_source=vnstock-docs&utm_medium=resource){: .btn .btn-cta .btn-primary}
 
 ### Notebook minh hoạ
 
-- [*&nbsp;*{: .fa .fa-eye} Demo Notebook](https://github.com/thinh-vu/vnstock/blob/beta/demo/gen2_vnstock_demo_index_all_functions_testing_2023.ipynb){: .btn .btn-cta .btn-primary}
+[*&nbsp;*{: .fa .fa-eye} Demo Notebook](https://github.com/thinh-vu/vnstock/blob/beta/demo/gen2_vnstock_demo_index_all_functions_testing_2023.ipynb){: .btn .btn-cta .btn-primary}
 
 👉 Bạn có thể mở tệp Jupyter Notebook để dùng thử tất cả các hàm của vnstock. Để sử dụng, nhấp vào nút ![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg) ở đầu trang của notebook để mở với Google Colab.
 
@@ -84,14 +84,24 @@ Tôi cung cấp một hàm tùy biến làm mẫu giúp bạn hình dung và b�
 - Tham gia nhóm vnstock trên Facebook: [Tại đây](https://www.facebook.com/groups/vnstock)
 - Tham gia Discord channel: [Tại đây](https://discord.gg/qJvxJcChJ3)
 
-<details>
-  <summary>Ủng hộ quỹ phát triển vnstock</summary>
-  Nếu vnstock giúp ích cho bạn, hãy đóng góp quỹ phát triển ứng dụng này theo một trong hai hình thức sau gồm chuyển khoản ngân hàng hoặc Momo. Mọi khoản đóng góp đều đáng trân quý và là động lực giúp tác giả duy trì vnstock luôn hữu ích, miễn phí, và dễ tiếp cận cho cộng đồng.
+
+- **Ủng hộ quỹ phát triển vnstock**: Nếu vnstock giúp ích cho bạn, hãy đóng góp quỹ phát triển ứng dụng này theo một trong hai hình thức sau gồm chuyển khoản ngân hàng hoặc Momo. Mọi khoản đóng góp đều đáng trân quý và là động lực giúp tác giả duy trì vnstock luôn hữu ích, miễn phí, và dễ tiếp cận cho cộng đồng.
+
+<div class="row">
+  <div class="col-md-6 col-sm-6 col-xs-12">
+   <a href="assets/images/vcb-qr-thinhvu.jpg?raw=true" data-title="Vietcombank QR" data-toggle="lightbox"><img class="img-responsive" src="assets/images/vcb-qr-thinhvu.jpg?raw=true" alt="Vietcombank QR Code" /></a>
+   <a class="mask" href="assets/images/vcb-qr-thinhvu.jpg?raw=true" data-title="Mã QR Vietcombank" data-toggle="lightbox"><i class="icon fa fa-search-plus"></i></a>
+  </div>
+
+  <div class="col-md-6 col-sm-6 col-xs-12">
+   <a href="assets/images/momo-qr-thinhvu.jpeg?raw=true" data-title="Momo QR" data-toggle="lightbox"><img class="img-responsive" src="assets/images/momo-qr-thinhvu.jpeg?raw=true" alt="Momo QR Code" /></a>
+   <a class="mask" href="assets/images/momo-qr-thinhvu.jpeg?raw=true" data-title="Mã QR Momo" data-toggle="lightbox"><i class="icon fa fa-search-plus"></i></a>
+  </div>
+ </div>
 
   - ![vcb-qr](https://github.com/thinh-vu/pretty-docs/blob/main/assets/images/vcb-qr-thinhvu.jpg)
   - ![momo-qr](https://github.com/thinh-vu/pretty-docs/blob/main/assets/images/momo-qr-thinhvu.jpeg)
 
-</details>
 
 ### Lộ trình phát triển
 
