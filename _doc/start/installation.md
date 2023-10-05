@@ -10,16 +10,21 @@ sections:
 > vnstock được phát triển thành hai nhánh riêng biệt. Bạn cần chọn phiên bản phù hợp và *copy câu lệnh tương ứng để thực hiện cài đặt ở bước tiếp theo*:
 
 - Để sử dụng phiên bản vnstock ổn định được cập nhật trên pypi.org, bạn có thể cài đặt bằng câu lệnh:
-  `pip install --upgrade vnstock`
+  
+  ```shell
+  pip install --upgrade vnstock
+  ```
 - Ngoài ra bạn cũng có thể cài đặt trực tiếp từ source code Github như sau:
   - Bản `beta` (nhận cập nhật mới nhất) được chia sẻ tại nhánh `beta` của Github repo.
-  
-    `pip install git+https://github.com/thinh-vu/vnstock.git@beta`
 
+  ```shell
+  pip install git+https://github.com/thinh-vu/vnstock.git@beta
+  ```
   - Bản `stable` (đã phát triển ổn định) được chia sẻ qua pypi.org và nhánh `main` tại Github repo này.
 
-    `pip install git+https://github.com/thinh-vu/vnstock.git@main`
-
+  ```shell
+    pip install git+https://github.com/thinh-vu/vnstock.git@main
+  ```
 
 <details>
 
