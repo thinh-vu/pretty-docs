@@ -12,11 +12,12 @@ sections:
 
 <details>
 
-<summary>Minh họa bảng dữ liệu khớp lệnh Phái sinh - CK Rồng Việt </summary>
+- Minh họa bảng dữ liệu khớp lệnh Phái sinh - CK Rồng Việt
 
-![livedragon_derivative_match](https://raw.githubusercontent.com/thinh-vu/vnstock/beta/resources/images/livedragon_derivative_history_match.png)
-
-</details>
+<div class="livedragon_derivative_match">
+  <a href="assets/images/livedragon_derivative_history_match.png?raw=true" data-title="Minh họa bảng dữ liệu khớp lệnh Phái sinh - CK Rồng Việt" data-toggle="lightbox"><img class="img-responsive" src="assets/images/docstring_suggestion.jpeg?raw=true" alt="screenshot" /></a>
+  <a class="mask" href="assets/images/livedragon_derivative_history_match.png?raw=true" data-title="Minh họa bảng dữ liệu khớp lệnh Phái sinh - CK Rồng Việt" data-toggle="lightbox"><i class="icon fa fa-search-plus"></i></a>
+</div>
 
 Để truy vấn dữ liệu từ hàm này, bạn cần có cookie người dùng (không cần đăng nhập) của chứng khoán Rồng Việt. Các bước thực hiện như sau:
   1. Truy cập `https://livedragon.vdsc.com.vn/all/all.rv`
