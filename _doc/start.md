@@ -17,8 +17,8 @@ promo:
     alt: Python course 4
     link: assets/images/python_data_analysis_course_4_thinhvu.png
     icon:
-      type: fa-solid
-      name: fa-cart-shopping pink
+      type: fa
+      name: fa-heart pink
   content:
     title: "**Love this free documentation theme?**"
     desc: Khóa học Phân tích dữ liệu với Python cuối cùng trong năm 2023. Đăng ký ngay!.
