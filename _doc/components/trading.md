@@ -225,8 +225,8 @@ Bộ lọc cổ phiếu là một hàm cho phép bạn truy vấn và lọc các
 
 
 Tham số
-- params (dict): một từ điển chứa các tham số và giá trị của chúng cho việc lọc cổ phiếu. Các `key` là tên của các bộ lọc, và các `value` là một giá trị đơn hoặc một tupple gồm hai giá trị (min và max) cho bộ lọc đó. Đây là ví dụ cho tham số params được thiết lập đúng:
-- drop_lang: Loại bỏ các cột dữ liệu sử dụng tên tiếng Việt (`vi`) hoặc Anh (`en`)
+- params (dict): một từ điển chứa các tham số và giá trị của chúng cho việc lọc cổ phiếu. Các **key** là tên của các bộ lọc, và các **value** là một giá trị đơn hoặc một tupple gồm hai giá trị (min và max) cho bộ lọc đó. Đây là ví dụ cho tham số params được thiết lập đúng:
+- drop_lang: Loại bỏ các cột dữ liệu sử dụng tên tiếng Việt (**vi**) hoặc Anh (**en**)
 
 ```python
 params = {

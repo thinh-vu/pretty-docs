@@ -10,8 +10,6 @@ sections:
 
 ### Dữ liệu khớp lệnh lịch sử
 
-<details>
-
 - Minh họa bảng dữ liệu khớp lệnh Phái sinh - CK Rồng Việt
 
 <div class="livedragon_derivative_match">
