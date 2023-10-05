@@ -21,7 +21,7 @@ Vnstock là một cộng đồng mở, chúng tôi luôn hoan nghênh và tôn t
 ## Trách nhiệm và hành động
 
 - Mọi đóng góp và phản hồi phải được gửi một cách chân thực và xây dựng.
-- Bảo vệ thông tin cá nhân của những người dùng và đồng đội khác trong cộng đồng.
+- Bảo vệ thông tin cá nhân của những người dùng và thành viên khác trong cộng đồng.
 - Không sử dụng hoặc chia sẻ thông tin bất hợp pháp hoặc nhạy cảm trong dự án.
 
 ## Giải quyết xung đột
@@ -29,7 +29,7 @@ Vnstock là một cộng đồng mở, chúng tôi luôn hoan nghênh và tôn t
 - Nếu gặp xung đột, hãy giải quyết một cách văn minh và lịch sự, đảm bảo rằng chúng ta giữ được không gian thảo luận tích cực.
 - Khi xảy ra sự cố, hãy thông báo cho nhóm phát triển hoặc quản trị dự án để giúp giải quyết vấn đề.
 
-## Chấp hành và trách nhiệm
+## Tuân thủ nguyên tắc
 
 - Mọi thành viên đều phải tuân thủ quy tắc đạo đức và hành xử này.
 - Nhóm phát triển hoặc quản trị dự án có quyền xem xét và xử lý những vi phạm mã đạo đức và hành xử này.

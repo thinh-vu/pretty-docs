@@ -20,10 +20,10 @@ Bạn có thể đóng góp vào dự án Vnstock bằng cách:
 2. Để gửi Pull Request, hãy fork dự án và tạo một nhánh mới cho tính năng hoặc sửa lỗi của bạn.
 3. Viết mã của bạn và đảm bảo tuân thủ quy ước mã nguồn
 4. Kiểm tra thử kỹ lưỡng trước khi gửi Pull Request để đảm bảo thư viện hoạt động bình thường, không xung đột với mã nguồn đã có.
-5. Gửi Pull Request của bạn vào nhánh `beta`.
+5. Gửi Pull Request của bạn vào nhánh **beta**.
 
 ### Quy tắc đặt tên và mô tả
-- Đặt tên nhánh: `feat/tieu-de-tinh-nang` hoặc `fix/tieu-de-sua-loi`.
+- Đặt tên nhánh: **feat/tieu-de-tinh-nang** hoặc **fix/tieu-de-sua-loi**.
 - Mô tả Pull Request: Mô tả rõ ràng và ngắn gọn về tính năng mới hoặc lý do sửa lỗi.
 
 ### Quy tắc mã nguồn
