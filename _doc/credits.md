@@ -1,9 +1,9 @@
 ---
 title: Trích dẫn
-excerpt: Layout for license & credits page. Consectetuer adipiscing elit
-date: 2016-01-25
+excerpt: Trích dẫn thông tin và tài liệu từ vnstock
+date: 2023-10-05
 icon:
-  name: icon_book
+  name: icon_microscope
 color: orange
 sections:
   - /credits/cite
