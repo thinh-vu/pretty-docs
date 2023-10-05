@@ -1,5 +1,5 @@
 ---
-title: Phân tích tài chính (Financial Analysis)
+title: Phân tích tài chính
 sections:
   - Bộ chỉ số tài chính
   - Báo cáo KQKD, CĐKT và LCTT

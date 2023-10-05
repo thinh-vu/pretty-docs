@@ -1,5 +1,5 @@
 ---
-title: Phân tích kỹ thuật (Technical Analysis)
+title: Phân tích kỹ thuật
 sections:
   - Truy xuất dữ liệu giá lịch sử
 ---
