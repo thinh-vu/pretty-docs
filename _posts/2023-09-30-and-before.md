@@ -2,20 +2,19 @@
 title: Lịch sử thay đổi của vnstock trước 1/10/2023
 ---
 
-## Updated 2023-08-22
-- Updated the listing_companies data file to the latest version.
-- Updated the **financial flow** function
-  - Add **get_all** parameter to get all available data or only the latest data (5 years or 10 quarters).
-- Update demo notebook to reflect the latest changes.
+## Cập nhật ngày 22/8/2023
+- Cập nhật tệp dữ liệu **listing_companies** lên phiên bản mới nhất.
+- Cập nhật hàm **financial flow**
+  - Thêm tham số **get_all** để lấy tất cả dữ liệu có sẵn hoặc chỉ dữ liệu mới nhất (5 năm hoặc 10 quý).
+- Cập nhật Demo Notebook để minh họa các thay đổi mới nhất.
 
-## Updated 2023-07-24
-- Initiate the implementation of derivatives data retrieval functionality.
-- Integrate a stock screening function into the library.
-- Enhanced the stock_historical_data function with the following updates:
-  - When the resolution is set to 1D, the time column will now be displayed in the YYYY-mm-dd date format.
-  - Introduced a new value, derivative, for the type parameter, enabling the retrieval of derivatives data.
-  - ~~ Added **ticker** column to the returned DataFrame.~~
-- The function references in the README file have been restructured by use cases, such as Technical Analysis, Fundamental Analysis, Stock screening, etc. This will provide a more user-friendly and organized documentation for the python package. The English version of the README file has also been updated to match the Vietnamese version.
+## Cập nhật ngày 24/7/2023
+- Bắt đầu triển khai chức năng truy xuất dữ liệu chứng khoán phái sinh.
+- Kết hợp một chức năng sàng lọc cổ phiếu từ TCBS vào thư viện.
+- Cải thiện hàm stock_historical_data với các cập nhật sau:
+  - Khi độ khung thời gian (resolution) được đặt thành **1D**, cột thời gian sẽ hiển thị theo định dạng ngày **YYYY-mm-dd**.
+  - Thêm một giá trị mới **derivative** cho tham số **type**, cho phép truy xuất dữ liệu phái sinh.
+- Các tham chiếu hàm trong tệp README đã được cấu trúc theo các tình huống sử dụng thực tế, như Phân tích Kỹ thuật, Phân tích Cơ bản, Sàng lọc Cổ phiếu, vv. Điều này giúp cho tài liệu thân thiện và có tổ chức hơn với người dùng. Phiên bản tiếng Anh của tệp README cũng đã được cập nhật để phù hợp với phiên bản tiếng Việt.
 
 ## Updated 2023-07-22
 - Added a new example code to the existing [demo notebook](https://github.com/thinh-vu/vnstock/blob/beta/demo/gen2_vnstock_demo_index_all_functions_testing_2023.ipynb) that demonstrates how to export data from Google Colab to Google Sheets.
