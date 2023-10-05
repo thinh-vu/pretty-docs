@@ -35,24 +35,14 @@ vnstock web app được xây dựng bằng streamlit framework, sử dụng ng�
 ### Docstring
 Tất cả các hàm của vnstock đều được cung cấp docstring đầy đủ trong khi file README.md này có thể không cập nhật toàn bộ mô tả về các tham số cho phép của từng hàm. Bạn có thể xem phần gợi ý khi viết câu lệnh trên các IDE như Google Colab, Visual Studio Code, hay Jupyter Notebook hoặc mở phần source code của Github để xem chi tiết. Trong thời gian tới, vnstock sẽ được bổ sung mô tả đầy đủ tại README.md khi có thể.
 
-<details>
-  <summary>Docstring trên Google Colab</summary>
-  Gợi ý cú pháp hàm được hiển thị khi viết bất kỳ hàm nào thuộc vnstock, trong ví dụ này hiển thị trong giao diện Google Colab.
-
+- **Docstring trên Google Colab**: Gợi ý cú pháp hàm được hiển thị khi viết bất kỳ hàm nào thuộc vnstock, trong ví dụ này hiển thị trong giao diện Google Colab.
   ![docstring_ide](https://github.com/thinh-vu/vnstock/blob/beta/resources/images/docstring_suggestion.jpeg?raw=true)
 
-</details>
-
-<details>
-  <summary>Docstring trong mã nguồn</summary>
-  
-  Mở mã nguồn tại file [vnstock.py](https://github.com/thinh-vu/vnstock/blob/beta/vnstock/stock.py), tìm hàm bạn cần tra cứu docstring.
-
+- **Docstring trong mã nguồn**: Mở mã nguồn Github tại thư mục vnstock, tìm hàm bạn cần tra cứu docstring.
   ![docstring_source](https://github.com/thinh-vu/vnstock/blob/beta/resources/images/docstring_source_code.jpeg?raw=true)
 
-</details>
-
 ### vnstock cho Google Sheets
+
 Tôi cung cấp một hàm tùy biến làm mẫu giúp bạn hình dung và bắt đầu tùy biến các hàm python được cung cấp bởi vnstock sang ngôn ngữ Google Apps Script và sử dụng để lấy dữ liệu trên Google Sheets. Bạn có thể bắt đầu đóng góp vào source code này giúp vnstock hoàn thiện đầy đủ các tính năng cho Google Sheets và lan tỏa tới cộng đồng.
 
 - Để sử dụng thử đoạn code trên cho việc lấy dữ liệu, bạn làm như sau:
