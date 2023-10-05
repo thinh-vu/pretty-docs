@@ -3,37 +3,13 @@ title: Support
 ---
 
 {: .question}
-### *&nbsp;*{: .fa .fa-question-circle} Quisque consectetur iaculis odio
+### *&nbsp;*{: .fa .fa-question-circle} Tôi có thể yêu cầu hỗ trợ như thế nào?
 
 {: .answer}
-Nulla a convallis augue, eget scelerisque sapien. Nulla ut purus lobortis nibh viverra auctor eget vitae sem.
-Quisque mi odio, eleifend ac mollis vel, laoreet a risus. Morbi ullamcorper luctus est, in mollis lorem ullamcorper vel.
-Phasellus et dolor purus. Mauris auctor ullamcorper mauris sollicitudin aliquet.
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 
-
-{: .question}
-### *&nbsp;*{: .fa .fa-question-circle} Duis maximus mollis sit amet pharetra?
-
-{: .answer}
-Nulla a convallis augue, eget scelerisque sapien. Nulla ut purus lobortis nibh viverra auctor eget vitae sem.
-Quisque mi odio, eleifend ac mollis vel, laoreet a risus. Morbi ullamcorper luctus est, in mollis lorem ullamcorper vel.
-Phasellus et dolor purus. Mauris auctor ullamcorper mauris sollicitudin aliquet.
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-
-
-{: .question}
-### *&nbsp;*{: .fa .fa-question-circle} Pellentesque habitant morbi tristique senectus?
-
-{: .answer}
-Nulla a convallis augue, eget scelerisque sapien. Nulla ut purus lobortis nibh viverra auctor eget vitae sem.
-Quisque mi odio, eleifend ac mollis vel, laoreet a risus. Morbi ullamcorper luctus est, in mollis lorem ullamcorper vel.
-Phasellus et dolor purus. Mauris auctor ullamcorper mauris sollicitudin aliquet.
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-
-{: .answer}
-Integer ornare tristique massa, et efficitur diam. Quisque consectetur iaculis odio, in aliquet magna suscipit eget.
-Sed sollicitudin facilisis risus vitae mattis. Vivamus facilisis, lacus eu rutrum gravida, ante sapien semper lectus,
-eget venenatis lorem massa porta sapien. Curabitur facilisis egestas erat, vel facilisis ipsum laoreet sit amet.
-Sed fermentum metus eget semper semper. Pellentesque imperdiet accumsan dolor eu convallis.
-Donec dictum justo a leo pellentesque placerat. Maecenas non diam ac elit tincidunt convallis ut nec eros.
+Hiện tại Vnstock docs đã được hoàn thiện và cung cấp một mảnh ghép quan trọng giúp người dùng tiếp cận tài liệu và các hướng dẫn sử dụng vnstock trực quan và tối ưu. Trước khi tìm đến tác giả để nhắn tin trực tiếp, bạn vui lòng tự nghiên cứu để tiết kiệm thời gian cho cả hai bên. Tôi cũng có những công việc và ưu tiên riêng của mình và không phải lúc nào cũng sẵn sàng hỗ trợ bạn 24/4 cho những câu hỏi rất căn bản đã có trong tài liệu và việc bạn đặt câu hỏi chỉ vì mình "lười" tìm kiếm. Điều này là không thể chấp nhận được.
+Nếu bạn thực sự cần hỗ trợ, đây là những cách bạn có thể làm theo thứ tự ưu tiên:
+1. Hỏi trong nhóm Facebook thành viên (trả phí 1 lần): https://www.facebook.com/groups/vnstock
+2. Hỏi trong nhóm cộng đồng Discord (miễn phí): https://discord.gg/ruugCSWVCJ
+3. Gửi email yêu cầu hỗ trợ: support@vnstock.site
+4. Nhắn tin trực tiếp cho tác giả: https://www.facebook.com/mr.thinh.ueh

@@ -3,6 +3,8 @@ title: PrettyDocs Credits
 short_title: Credits
 ---
 
+Vnstock docs sử dụng thư viện mã nguồn mở PrettyDocs để xây dựng giao diện người dùng, được hosted trên Github và hiển thị dưới dạng Github Pages. Bạn có thể tìm hiểu thêm về PrettyDocs tại đây:
+
 {: .list .list-unstyled}
 - [*&nbsp;*{: .fa .fa-external-link-square} Bootstrap](http://getbootstrap.com/)
 - [*&nbsp;*{: .fa .fa-external-link-square} FontAwesome](http://fortawesome.github.io/Font-Awesome/)

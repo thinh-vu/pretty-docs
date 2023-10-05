@@ -3,42 +3,21 @@ title: Pricing
 ---
 
 {: .question}
-### *&nbsp;*{: .fa .fa-question-circle} How much is magna at posuere? **New**{: .label .label-success}
+### *&nbsp;*{: .fa .fa-question-circle} Tôi có phải trả phí khi sử dụng vnstock? **New**{: .label .label-success}
 
 {: .answer}
-Curabitur nec ipsum placerat, accumsan justo eu, imperdiet augue. Praesent eget mattis erat.
-Donec dolor odio, maximus quis est ut, bibendum pharetra ante. Sed faucibus nec dui sed elementum.
-Nullam aliquet, dui at bibendum egestas, lorem metus euismod libero, ut porta risus felis eget odio.
-Aenean tincidunt magna at posuere semper.
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-
+Vnstock được cung cấp dưới dạng phần mềm mã nguồn mở, miễn phí. Bạn được tự do sử dụng, phân phối và sửa đổi phần mềm theo các điều khoản của giấy phép MIT và các nguyên tắc của dự án. Bạn có thể tùy tâm đóng góp kinh phí phát triển và duy trì dự án tới tác giả Thịnh Vũ. Đơn giản là gửi tặng một ly cafe như việc ai đó đã giúp bạn một việc tốt và bạn muốn tri ân. 
 
 {: .question}
-### *&nbsp;*{: .fa .fa-question-circle} Can I risus felis eget odio?
+### *&nbsp;*{: .fa .fa-question-circle} Tôi có thể đóng góp quỹ Vnstock như thế nào? **New**{: .label .label-success}
 
-{: .answer}
-Curabitur nec ipsum placerat, accumsan justo eu, imperdiet augue. Praesent eget mattis erat.
-Donec dolor odio, maximus quis est ut, bibendum pharetra ante. Sed faucibus nec dui sed elementum.
-Nullam aliquet, dui at bibendum egestas, lorem metus euismod libero, ut porta risus felis eget odio.
-Aenean tincidunt magna at posuere semper.
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-
+Để đóng góp cho dự án, bạn có thể chọn chuyển khoản ngân hàng hoặc chuyển tiền qua ví điện tử Momo.
 
 {: .question}
-### *&nbsp;*{: .fa .fa-question-circle} Can I purus lobortis nibh?
+### *&nbsp;*{: .fa .fa-question-circle} Quỹ Vnstock được sử dụng như thế nào? **New**{: .label .label-success}
 
-{: .answer}
-Ut cursus, felis vel vulputate dictum, nisi mauris aliquam mi, sed venenatis leo sem eu diam.
-Etiam pulvinar aliquet eros, vitae consequat ex consectetur eu. Nulla non purus a orci volutpat scelerisque.
-Aliquam consequat lacus eu ante ornare mattis. Praesent vitae est ut nibh maximus auctor.
-Donec eget sem eget lectus eleifend ullamcorper sit amet vel quam.
-
-
-{: .question}
-### *&nbsp;*{: .fa .fa-question-circle} Why consequat lacus eu ante?
-
-{: .answer}
-Nulla a convallis augue, eget scelerisque sapien. Nulla ut purus lobortis nibh viverra auctor eget vitae sem.
-Quisque mi odio, eleifend ac mollis vel, laoreet a risus. Morbi ullamcorper luctus est, in mollis lorem ullamcorper vel.
-Phasellus et dolor purus. Mauris auctor ullamcorper mauris sollicitudin aliquet.
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+Tác giả sử dụng quỹ Vnstock để duy trì và phát triển dự án. Cụ thể, quỹ Vnstock được sử dụng để:
+- Trả chi phí duy trì máy chủ và tên miền của dự án.
+- Trả chi phí nâng cấp và vận hành các dịch vụ hỗ trợ người dùng cho dự án.
+- Sử dụng làm chi phí cho các hoạt động quảng bá và marketing của dự án.
+- Sử dụng làm chi phí cho các hoạt động đào tạo và hỗ trợ người dùng.
