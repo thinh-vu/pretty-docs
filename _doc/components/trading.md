@@ -1,12 +1,8 @@
 ---
 title: Giao dịch thông minh
 sections:
-  - Lựa chọn cổ phiếu (Stock Screening)
-    - So sánh các cổ phiếu tiềm năng
-    - Bộ lọc cổ phiếu
-      - Các bộ lọc gợi ý và tiêu chí hỗ trợ
-  - Dữ liệu khớp lệnh trong ngày giao dịch
-    - Giải thích ý nghĩa chỉ số
+  - Lựa chọn cổ phiếu
+  - Dữ liệu khớp lệnh
 ---
 
 ## Lựa chọn cổ phiếu (Stock Screening)

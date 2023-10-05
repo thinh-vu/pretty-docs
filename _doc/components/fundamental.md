@@ -2,10 +2,7 @@
 title: Phân tích tài chính (Financial Analysis)
 sections:
   - Bộ chỉ số tài chính
-  - Báo cáo kết quả kinh doanh, cân đối kế toán và lưu chuyển tiền tệ
-    - Báo cáo kinh doanh
-    - Bảng cân đối kế toán
-    - Báo cáo lưu chuyển tiền tệ
+  - Báo cáo KQKD, CĐKT và LCTT
   - Chỉ số định giá
 ---
 
