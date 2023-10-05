@@ -70,7 +70,7 @@ Tôi cung cấp một hàm tùy biến làm mẫu giúp bạn hình dung và b�
 - Mở rộng để xem ảnh minh họa trên Google Apps Script
 
   <div class="vnstock_apps_script">
-   <a href="assets/images/vnstock_google_sheets_appscript_code.png?raw=true" data-title="vnstock apps script" data-toggle="lightbox"><img class="img-responsive" src="assets/images/docstring_suggestion.jpeg?raw=true" alt="screenshot" /></a>
+   <a href="assets/images/vnstock_google_sheets_appscript_code.png?raw=true" data-title="vnstock apps script" data-toggle="lightbox"><img class="img-responsive" src="assets/images/vnstock_google_sheets_appscript_code.png?raw=true" alt="screenshot" /></a>
    <a class="mask" href="assets/images/vnstock_google_sheets_appscript_code.png?raw=true" data-title="vnstock apps script" data-toggle="lightbox"><i class="icon fa fa-search-plus"></i></a>
   </div>
   
@@ -79,7 +79,7 @@ Tôi cung cấp một hàm tùy biến làm mẫu giúp bạn hình dung và b�
 - Đây là kết quả bạn sẽ nhận được:
 
   <div class="vnstock_sheets">
-   <a href="assets/images/vnstock_google_sheet_result.png?raw=true" data-title="vnstock google sheets" data-toggle="lightbox"><img class="img-responsive" src="assets/images/docstring_suggestion.jpeg?raw=true" alt="screenshot" /></a>
+   <a href="assets/images/vnstock_google_sheet_result.png?raw=true" data-title="vnstock google sheets" data-toggle="lightbox"><img class="img-responsive" src="assets/images/vnstock_google_sheet_result.png?raw=true" alt="screenshot" /></a>
    <a class="mask" href="assets/images/vnstock_google_sheet_result.png?raw=true" data-title="vnstock google sheets" data-toggle="lightbox"><i class="icon fa fa-search-plus"></i></a>
   </div>
 
