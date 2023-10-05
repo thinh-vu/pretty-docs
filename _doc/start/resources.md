@@ -39,22 +39,22 @@ Tất cả các hàm của vnstock đều được cung cấp docstring đầy �
   ![docstring_ide](https://github.com/thinh-vu/vnstock/blob/beta/resources/images/docstring_suggestion.jpeg?raw=true)
 
 - **Docstring trong mã nguồn**: Mở mã nguồn Github tại thư mục vnstock, tìm hàm bạn cần tra cứu docstring.
-  ![docstring_source](https://github.com/thinh-vu/vnstock/blob/beta/resources/images/docstring_source_code.jpeg?raw=true)
+  ![docstring_source](https://github.com/thinh-vu/vnstock/blob/beta/resources/images/docstring_source_code.jpeg)
 
 ### vnstock cho Google Sheets
 
 Tôi cung cấp một hàm tùy biến làm mẫu giúp bạn hình dung và bắt đầu tùy biến các hàm python được cung cấp bởi vnstock sang ngôn ngữ Google Apps Script và sử dụng để lấy dữ liệu trên Google Sheets. Bạn có thể bắt đầu đóng góp vào source code này giúp vnstock hoàn thiện đầy đủ các tính năng cho Google Sheets và lan tỏa tới cộng đồng.
 
 - Để sử dụng thử đoạn code trên cho việc lấy dữ liệu, bạn làm như sau:
-  - Mở file [source code vnstock_gg_sheet](https://raw.githubusercontent.com/thinh-vu/vnstock/beta/vnstock_gg_sheet/vnstock._appscript.js) và copy đoạn code.
+  - Mở file [source code vnstock_gg_sheet](https://githubusercontent.com/thinh-vu/vnstock/beta/vnstock_gg_sheet/vnstock._appscript.js) và copy đoạn code.
   - Mở hoặc tạo 1 file Google Sheets bất kỳ
-  - Từ menu của Google Sheets, tìm mục Extension (tiện ích mở rộng) > Apps Script như trong hình. ![Alt text](https://raw.github.com/thinh-vu/pretty-docs/blob/main/assets/images/google_sheet_appscript_menu.png)
+  - Từ menu của Google Sheets, tìm mục Extension (tiện ích mở rộng) > Apps Script như trong hình. ![Alt text](https://github.com/thinh-vu/pretty-docs/blob/main/assets/images/google_sheet_appscript_menu.png)
   - Trong giao diện Apps Script Editor, xóa hết code hiện tại và ghi đè với đoạn code bạn copy từ source code ở trên 
   
   <details>
     <summary>Mở rộng để xem ảnh minh họa trên Google Apps Script</summary>
     
-    ![Alt text](https://raw.github.com/thinh-vu/pretty-docs/blob/main/assets/images/vnstock_google_sheets_appscript_code.png)
+    ![Alt text](https://github.com/thinh-vu/pretty-docs/blob/main/assets/images/vnstock_google_sheets_appscript_code.png)
 
   </details>
   
@@ -65,7 +65,7 @@ Tôi cung cấp một hàm tùy biến làm mẫu giúp bạn hình dung và b�
     <details>
     <summary>Mở rộng để xem ảnh minh họa trên Google Apps Script</summary>
 
-    ![vnstock sheets](https://raw.github.com/thinh-vu/pretty-docs/blob/main/assets/images/vnstock_google_sheet_result.png)
+    ![vnstock sheets](https://github.com/thinh-vu/pretty-docs/blob/main/assets/images/vnstock_google_sheet_result.png)
 
   </details>
 
@@ -82,8 +82,8 @@ Tôi cung cấp một hàm tùy biến làm mẫu giúp bạn hình dung và b�
   <summary>Ủng hộ quỹ phát triển vnstock</summary>
   Nếu vnstock giúp ích cho bạn, hãy đóng góp quỹ phát triển ứng dụng này theo một trong hai hình thức sau gồm chuyển khoản ngân hàng hoặc Momo. Mọi khoản đóng góp đều đáng trân quý và là động lực giúp tác giả duy trì vnstock luôn hữu ích, miễn phí, và dễ tiếp cận cho cộng đồng.
 
-  - ![vcb-qr](https://raw.github.com/thinh-vu/pretty-docs/blob/main/assets/images/vcb-qr-thinhvu.jpg)
-  - ![momo-qr](https://raw.github.com/thinh-vu/pretty-docs/blob/main/assets/images/momo-qr-thinhvu.jpeg)
+  - ![vcb-qr](https://github.com/thinh-vu/pretty-docs/blob/main/assets/images/vcb-qr-thinhvu.jpg)
+  - ![momo-qr](https://github.com/thinh-vu/pretty-docs/blob/main/assets/images/momo-qr-thinhvu.jpeg)
 
 </details>
 

@@ -62,7 +62,7 @@ share:
     text: &site_description
     title: Tweet
   github:
-    repo: LeakyAbstractions/pretty-docs
+    repo: thinh-vu/vnstock
     position: right
     color: red
 
