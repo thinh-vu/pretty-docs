@@ -1,6 +1,6 @@
 ---
-title: Community
-excerpt: Need help? Want to contribute? Check out the guidelines
+title: Cộng đồng Vnstock
+excerpt: Bạn cần hỗ trợ? Bạn muốn đóng góp xây dựng vnstock? Xem chi tiết tại đây.
 icon:
   name: fa fa-thumbs-o-up
 color: pink

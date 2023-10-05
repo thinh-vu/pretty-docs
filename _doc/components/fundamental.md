@@ -54,13 +54,15 @@ bookValuePerShareChange  0.219  0.247    0.2  0.199  0.923
 creditGrowth             0.211  0.252  0.202  0.443 -0.006
   ```
 
-
-
 ## Báo cáo kết quả kinh doanh, cân đối kế toán và lưu chuyển tiền tệ
 
 ### Báo cáo kinh doanh
 
-![income_statement](https://raw.githubusercontent.com/thinh-vu/vnstock/main/src/financial_income_statement.png)
+<div class="balance_sheet">
+  <a href="assets/images/financial_income_statement.png?raw=true" data-title="Dữ liệu báo cáo doanh thu tại TCBS" data-toggle="lightbox"><img class="img-responsive" src="assets/images/docstring_suggestion.jpeg?raw=true" alt="screenshot" /></a>
+  <a class="mask" href="assets/images/financial_income_statement.png?raw=true" data-title="Dữ liệu báo cáo doanh thu tại TCBS" data-toggle="lightbox"><i class="icon fa fa-search-plus"></i></a>
+</div>
+
 ```python
 financial_flow(symbol="TCB", report_type='incomestatement', report_range='quarterly')
 ```
@@ -79,7 +81,11 @@ index                                                                           
 
 ### Bảng cân đối kế toán
 
-![balance_sheet](https://raw.githubusercontent.com/thinh-vu/vnstock/main/src/financial_balancesheet.png)
+<div class="balance_sheet">
+  <a href="assets/images/financial_balancesheet.png?raw=true" data-title="Dữ liệu bảng cân đối kế toán tại TCBS" data-toggle="lightbox"><img class="img-responsive" src="assets/images/docstring_suggestion.jpeg?raw=true" alt="screenshot" /></a>
+  <a class="mask" href="assets/images/financial_balancesheet.png?raw=true" data-title="Dữ liệu bảng cân đối kế toán tại TCBS" data-toggle="lightbox"><i class="icon fa fa-search-plus"></i></a>
+</div>
+
 ```python
 financial_flow(symbol="TCB", report_type='balancesheet', report_range='quarterly')
 ```
