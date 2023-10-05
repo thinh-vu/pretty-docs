@@ -20,6 +20,6 @@ promo:
       type: fa
       name: fa-heart pink
   content:
-    title: "**Love this free documentation theme?**"
+    title: "**Muốn làm chủ kỹ năng xử lý dữ liệu với Python?**"
     desc: Khóa học Phân tích dữ liệu với Python cuối cùng trong năm 2023. Đăng ký ngay!.
 ---
