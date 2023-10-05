@@ -8,7 +8,6 @@ sections:
   - vnstock cho Google Sheets
   - Xây dựng cộng đồng vnstock
   - Lộ trình phát triển
-  - Lịch sử thay đổi
 ---
 
 ## Tài nguyên quan trọng
@@ -115,9 +114,4 @@ Tôi cung cấp một hàm tùy biến làm mẫu giúp bạn hình dung và b�
 
 ### Lộ trình phát triển
 
-🔥 Bạn có thể tham khảo thêm [Ý tưởng cho các tính năng nâng cao cho các phiên bản sắp tới](https://github.com/users/thinh-vu/projects/1/views/4) để đồng hành cùng vnstock. 
-
-### Lịch sử thay đổi
-
-👉 Từ phiên bản 0.1.3, tất cả các cập nhật về tính năng và nâng cấp cho thư viện được tổng hợp trong file
-[*&nbsp;*{: .fa-solid .fa-clock-rotate-left}        Lịch sử thay đổi  ](https://github.com/thinh-vu/vnstock/blob/beta/docs/changes_log.md){: .btn .btn-blue .btn-cta}
+🔥 Bạn có thể tham khảo thêm [Ý tưởng cho các tính năng nâng cao cho các phiên bản sắp tới](https://github.com/users/thinh-vu/projects/1/views/4) để đồng hành cùng vnstock.
