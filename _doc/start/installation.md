@@ -27,9 +27,10 @@ sections:
 
   <!-- ![select_branch](https://github.com/thinh-vu/pretty-docs/blob/main/assets/images/vnstock_select_branch.jpeg?raw=true) -->
 
-  <a href="https://github.com/thinh-vu/pretty-docs/blob/main/assets/images/vnstock_select_branch.jpeg?raw=true">
-    <img src="https://github.com/thinh-vu/pretty-docs/blob/main/assets/images/vnstock_select_branch.jpeg?raw=true" alt="select_branch" width="800"/>
-  </a>
+  <div class="screenshot-holder">
+   <a href="assets/images/vnstock_select_branch.jpeg" data-title="Chọn nhánh" data-toggle="lightbox"><img class="img-responsive" src="assets/images/vnstock_select_branch.jpeg" alt="screenshot" /></a>
+   <a class="mask" href="assets/images/demo/vnstock_select_branch.jpeg" data-title="Chọn nhánh vnstock" data-toggle="lightbox"><i class="icon fa fa-search-plus"></i></a>
+  </div>
 
 </details>
 
