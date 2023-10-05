@@ -1,7 +1,7 @@
 ---
-title: What's New
-short_title: News
-excerpt: Get the latest updates and find out what's new
+title: Thông báo cập nhật
+short_title: Tin tức
+excerpt: Lịch sử phiên bản và thông báo cập nhật liên quan đến vnstock.
 icon:
   name: fa fa-newspaper-o
 color: green
