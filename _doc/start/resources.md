@@ -11,6 +11,8 @@ sections:
   - Lịch sử thay đổi
 ---
 
+## Tài nguyên quan trọng
+
 Trước khi bắt đầu, bạn có thể xem Video giới thiệu chính thức cho vnstock mình mới chia sẻ trên Youtube [tại đây](https://www.youtube.com/watch?v=6kP2TTtEY9Y&ab_channel=LEarnAnything)
 
 ### Website chính thức của vnstock

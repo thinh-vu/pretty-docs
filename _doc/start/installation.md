@@ -5,6 +5,8 @@ sections:
   - Chạy câu lệnh cài đặt
 ---
 
+## Cài đặt vnstock
+
 ### Xác định phiên bản phù hợp
 
 > vnstock được phát triển thành hai nhánh riêng biệt. Bạn cần chọn phiên bản phù hợp và *copy câu lệnh tương ứng để thực hiện cài đặt ở bước tiếp theo*:
@@ -15,12 +17,12 @@ sections:
   pip install --upgrade vnstock
   ```
 - Ngoài ra bạn cũng có thể cài đặt trực tiếp từ source code Github như sau:
-  - Bản `beta` (nhận cập nhật mới nhất) được chia sẻ tại nhánh `beta` của Github repo.
+  - Bản **beta** (nhận cập nhật mới nhất) được chia sẻ tại nhánh **beta** của Github repo.
 
   ```shell
   pip install git+https://github.com/thinh-vu/vnstock.git@beta
   ```
-  - Bản `stable` (đã phát triển ổn định) được chia sẻ qua pypi.org và nhánh `main` tại Github repo này.
+  - Bản **stable** (đã phát triển ổn định) được chia sẻ qua pypi.org và nhánh **main** tại Github repo này.
 
   ```shell
     pip install git+https://github.com/thinh-vu/vnstock.git@main
@@ -39,7 +41,7 @@ sections:
 
 ### Chạy câu lệnh cài đặt
 
-> Khi sử dụng file demo [vnstock_demo_index_all_functions_testing_2023_06_22.ipynb](https://github.com/thinh-vu/vnstock/blob/beta/demo/gen2_vnstock_demo_index_all_functions_testing_2023.ipynb) để bắt đầu, các câu lệnh cài đặt cần thiết đã được cung cấp sẵn để bạn thực thi (run).
+> Khi sử dụng file [Demo Notebook](https://github.com/thinh-vu/vnstock/blob/beta/demo/gen2_vnstock_demo_index_all_functions_testing_2023.ipynb) để bắt đầu, các câu lệnh cài đặt cần thiết đã được cung cấp sẵn để bạn thực thi (run).
 
 **pip được sử dụng để cài đặt vnstock**. pip có sẵn trong hầu hết các bản phân phối Python được cài đặt. Phiên bản python cần thiết cho vnstock tối thiểu là 3.7. Bạn có thể paste câu lệnh đã copy ở Bước 1 và chạy nó trong môi trường Python bạn đang sử dụng.
 
