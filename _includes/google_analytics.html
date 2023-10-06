@@ -1,23 +1,26 @@
-function setupGoogleAnalytics(trackingCode) {
-  if (trackingCode) {
-    // Create a script element for gtag.js
-    var gtagScript = document.createElement('script');
-    gtagScript.async = true;
-    gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=' + trackingCode;
-
-    // Append the script element to the document's head
-    document.head.appendChild(gtagScript);
-
-    // Define the gtag function and configure the tracking
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
+{% if site.google_analytics %}
+    <script type="text/javascript">
+    function setupGoogleAnalytics(trackingCode) {
+      if (trackingCode) {
+        // Create a script element for gtag.js
+        var gtagScript = document.createElement('script');
+        gtagScript.async = true;
+        gtagScript.src = 'https://www.googletagmanager.com/gtag/js?id=' + trackingCode;
+    
+        // Append the script element to the document's head
+        document.head.appendChild(gtagScript);
+    
+        // Define the gtag function and configure the tracking
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+          dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', trackingCode);
+      }
     }
-    gtag('js', new Date());
-    gtag('config', trackingCode);
-  }
-}
-
+</script>
+{% endif %}
 
 <!-- {% if site.google_analytics %}
     <script type="text/javascript">
