@@ -1,9 +1,9 @@
 #
 # Site settings
 #
-remote_theme: thinh-vu/pretty-docs
+remote_theme: LeakyAbstractions/pretty-docs
 url: https://thinh-vu.github.io
-baseurl: /vnstock-docs
+baseurl: /pretty-docs
 title: &site_title vnstock Docs
 description: &site_description Tài liệu hướng dẫn sử dụng vnstock trong phân tích thị trường chứng khoán Việt Nam
 branding:
@@ -28,9 +28,8 @@ kramdown:
 #
 owner:
   name: Thịnh Vũ
-  facebook: &site_owner_twitter mr.thinh.ueh
-  linkedin: *site_owner_twitter thinh-vu
   twitter: &site_owner_twitter mrthinh360
+  facebook: &site_owner_twitter mr.thinh.ueh
   copyright:
     # notice: Lorem Ipsum
     author: "[Thinh Vu](https://thinhvu.com/)"
@@ -56,8 +55,8 @@ share:
     class: fb-like
     action: like
     layout: button_count
-    show-faces: true
-    share: true
+    show-faces: false
+    share: false
   twitter:
     via: *site_owner_twitter
     text: &site_description
