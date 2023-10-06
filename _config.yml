@@ -1,7 +1,7 @@
 #
 # Site settings
 #
-remote_theme: LeakyAbstractions/pretty-docs
+remote_theme: thinh-vu/pretty-docs
 url: https://thinh-vu.github.io
 baseurl: /pretty-docs
 title: &site_title vnstock Docs

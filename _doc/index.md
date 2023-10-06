@@ -6,7 +6,7 @@ tagline: |
   
   Xây dựng bằng *&nbsp;*{: .fa .fa-heart} dành cho cộng đồng.
   
-  Sẵn sàng tích hợp vào các dự án *&nbsp;*{: .fa-brands .fa-python}
+  Sẵn sàng tích hợp vào dự án của bạn *&nbsp;*{: .fa .fa-python}
 heading: Bắt đầu sử dụng thật dễ dàng!
 navigation:
   - /start
