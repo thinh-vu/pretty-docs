@@ -34,14 +34,16 @@ layout: compress
 
     {% include open_graph.html %}
     {% include twitter_cards.html %}
-
+    {% include google_tag_manager_head.html %}
     {% include google_analytics.html %}
+    {% include microsoft_clarity.html %}
 
     {% include custom_head.html %}
 
 </head>
 
 <body class="landing-page">
+  {% include google_tag_manager_body.html %}
 
   {% if site.share.facebook %}
     {% include facebook.html %}
